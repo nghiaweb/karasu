@@ -491,3 +491,42 @@
  position: relative;
  z-index: 10;
 }
+
+/*======================
+add css here
+======================== */
+
+#works #teams .team-btn-box:hover::after {
+    opacity: 0.6;
+    transition: 1s all;
+}
+#works #teams .team-btn-box::after {
+    transition: 1s all;
+}
+
+@media (min-width: 769px) {
+    #works .works-main {
+        background-image: none;
+        overflow: hidden;
+    }
+    #works .works-main::before {
+        background: url(../../images/works/bg.png) no-repeat;
+        background-size: contain;
+        position: relative;
+        position: absolute;
+        top: -20px;
+        left: 89px;
+        width: 100%;
+        bottom: 285px;
+        content: "";
+    }
+    #works #teams .team-btn-box {
+        margin-bottom: 237px;
+    }
+    #works #service .service-item {
+        margin-bottom: calc(100vw / 1440 * 110);
+    }
+    .l-section:last-of-type {
+        margin-top: calc(100vw / 1440 * 177) !important;
+    }
+}

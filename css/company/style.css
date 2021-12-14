@@ -9,8 +9,6 @@
 }
 
 #company .company-main {
- background: url(../../images/company/bg.png) no-repeat;
- background-size: contain;
  position: relative;
 }
 
@@ -804,4 +802,28 @@
 #company .l-section {
  position: relative;
  z-index: 10;
+}
+
+/*======================
+add css here
+======================== */
+
+@media (min-width: 769px) {
+    #company .company-main {
+        background-image: none;
+        overflow: hidden;
+    }
+    #company .company-main::before {
+        background: url(../../images/company/bg.png) no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 5px;
+        left: 114px;
+        width: 100%;
+        bottom: 320px;
+        content: "";
+    }
+    #company #spirit .spirit-list .spirit-list-item h4 {
+        line-height: 1.8;
+    }
 }
