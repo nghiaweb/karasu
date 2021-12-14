@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTRY エントリー｜Kuras up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--メールフォームプロ用CSS-->
+    <link rel="stylesheet" href="mfp.statics/mailformpro.css" type="text/css">
+    <!--/メールフォームプロ用CSS-->
+    <link rel="stylesheet" href="/recruit/common/css/add.css">
+    <link rel="stylesheet" href="/recruit/common/css/common_low.css">
+    <link rel="stylesheet" href="/recruit/entry/css/entry.css">
+</head>
+<body>
+    <header class="l-header">
+        <div class="l-header__inner">
+            <div class="c-headerLogo">
+                <a class="c-headerLogo__link" href="">
+                    <figure class="c-headerLogo__link__img">
+                        <img src="/recruit/common/image/img_mainLogo.svg" alt="">
+                    </figure>
+                </a>
+            </div>
+            <div class="c-headerSpmenuButton">
+                <figure class="c-headerSpmenuButton__img">
+                    <img src="/recruit/common/image/img_spMenuButton.svg" alt="">
+                </figure>
+            </div>
+            <nav class="c-pcGlobalNav">
+                <ul class="c-pcGlobalNav__list">
+                    <li class="c-pcGlobalNav__list__item" data-item="1">
+                        <a class="c-pcGlobalNav__list__item__link" href="">
+                            <p class="c-pcGlobalNav__list__item__link__text01">COMPANY</p>
+                            <p class="c-pcGlobalNav__list__item__link__text02">会社を知る</p>
+                        </a>
+                    </li>
+                    <li class="c-pcGlobalNav__list__item" data-item="2">
+                        <a class="c-pcGlobalNav__list__item__link" href="">
+                            <p class="c-pcGlobalNav__list__item__link__text01">WORKS</p>
+                            <p class="c-pcGlobalNav__list__item__link__text02">仕事を知る</p>
+                        </a>
+                    </li>
+                    <li class="c-pcGlobalNav__list__item" data-item="3">
+                        <a class="c-pcGlobalNav__list__item__link" href="">
+                            <p class="c-pcGlobalNav__list__item__link__text01">MEMBER</p>
+                            <p class="c-pcGlobalNav__list__item__link__text02">人を知る</p>
+                        </a>
+                    </li>
+                    <li class="c-pcGlobalNav__list__item" data-item="4">
+                        <a class="c-pcGlobalNav__list__item__link" href="">
+                            <p class="c-pcGlobalNav__list__item__link__text01">DATA</p>
+                            <p class="c-pcGlobalNav__list__item__link__text02">数字で見る</p>
+                        </a>
+                    </li>
+                    <li class="c-pcGlobalNav__list__item" data-item="5">
+                        <a class="c-pcGlobalNav__list__item__link" href="">
+                            <p class="c-pcGlobalNav__list__item__link__text01">JOB INFO</p>
+                            <p class="c-pcGlobalNav__list__item__link__text02">採用情報</p>
+                        </a>
+                    </li>
+                    <li class="c-pcGlobalNav__list__item" data-item="6">
+                        <a class="c-pcGlobalNav__list__item__link" href="">
+                            <p class="c-pcGlobalNav__list__item__link__text01">ENTRY</p>
+                            <p class="c-pcGlobalNav__list__item__link__text02">エントリー</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="c-spGlobalNav">
+            <ul class="c-spGlobalNav__list">
+                <li class="c-spGlobalNav__list__item" data-item="1">
+                    <div class="c-spGlobalNav__list__item__inner">
+                        <a class="c-spGlobalNav__list__item__inner__link" href="">
+                            <span class="c-spGlobalNav__list__item__inner__link__text01">TOP</span>
+                            <span class="c-spGlobalNav__list__item__inner__link__text02">トップ</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="c-spGlobalNav__list__item" data-item="2">
+                    <div class="c-spGlobalNav__list__item__inner">
+                        <a class="c-spGlobalNav__list__item__inner__link" href="">
+                            <span class="c-spGlobalNav__list__item__inner__link__text01">COMPANY</span>
+                            <span class="c-spGlobalNav__list__item__inner__link__text02">会社を知る</span>
+                        </a>
+                        <figure class="c-spGlobalNav__list__item__inner__button">
+                            <img src="/recruit/common/image/icon_arrow03.svg" alt="">
+                        </figure>
+                    </div>
+                    <ul class="c-spGlobalNav__list__item__list">
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">理念</a>
+                        </li>
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">代表メッセージ</a>
+                        </li>
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">ユニークな制度</a>
+                        </li>
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">会社概要</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <a class="c-spGlobalNav__link" href="">ENTRY</a>
+        </nav>
+    </header>
+    
+    
+    <main class="l-main">
+        <div class="c-mainVisual p-data-mainVisual">
+            <figure class="c-mainVisual__img">
+                <img class="u-d--none--pc" src="/recruit/entry/image/img_main_sp.jpg" alt="">
+                <img class="u-d--none02--sp" src="/recruit/entry/image/img_main_pc.jpg" alt="">
+            </figure>
+            <div class="c-mainVisual__inner">
+                <h1 class="c-mainVisual__inner__heading move-area">
+                    <span class="c-mainVisual__inner__heading__text01 move-text"><span>E</span><span>N</span><span>T</span><span>R</span><span>Y</span></span>
+                    <span class="c-mainVisual__inner__heading__text02 js-anime-c">エントリー</span>
+                </h1>
+            </div>
+        </div>
+
+        <section class="l-section entry_section">
+            <div class="form-wrap">
+                <div class="c-link confirm-none">
+                    <p class="l-section__inner js-anime-c">
+                        クラスアップへ入社をご希望の方は、必要事項を入力のうえ、以下フォームよりご応募ください。<br><br>
+                        <span class="req">（必須）</span>は入力必須項目です。
+                    </p>
+                </div>
+                <div class="l-section__inner">
+                    <form id="mailformpro" action="mailformpro/mailformpro.cgi" method="POST">                        
+                        <dl class="mailform">
+                            <dt class="mfp">氏名<span class="req">必須</span></dt>
+                            <dd class="mfp">
+                                <input type="text" name="氏名" required="required">
+                                <span class="example">例）田中 太郎</span>
+                            </dd>
+                        </dl>
+                        <dl class="mailform">
+                            <dt class="mfp">氏名（ふりがな）<span class="req">必須</span></dt>
+                            <dd class="mfp">
+                                <input type="text" name="氏名（ふりがな）" required="required">
+                                <span class="example">例）たなか たろう</span>
+                            </dd>
+                        </dl>
+                        <dl class="mailform ymd">
+                            <dt class="mfp">生年月日<span class="req">必須</span></dt>
+                            <dd class="mfp">
+                                <div class="wrap">
+                                    <input type="text" name="年" class="w125" required="required">
+                                    年
+                                <span class="example">例）1990</span>
+                                </div>
+                                <div class="wrap">
+                                    <select name="月" required="required">
+                                        <option value="1" selected="selected">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                    月
+                                </div>
+                                <div class="wrap">
+                                    <select name="日" required="required">
+                                        <option value="1" selected="selected">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                    </select>
+                                    日
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="mailform gender">
+                            <dt class="mfp">性別<span class="req">必須</span></dt>
+                            <dd class="mfp">
+                                <div class="none">
+                                    <label><input type="radio" name="性別" value="none" required="required"><span>none</span></label>
+                                </div>
+                                <div class="">
+                                    <label><input type="radio" name="性別" value="男性" required="required"><span>男性</span></label>
+                                </div>
+                                <div class="">
+                                    <label><input type="radio" name="性別" value="女性" required="required"><span>女性</span></label>
+                                </div>
+                                <div class="">
+                                    <label><input type="radio" name="性別" value="回答しない" required="required"><span>回答しない</span></label>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="mailform">
+                            <dt class="mfp">ご住所</dt>
+                            <dd class="mfp">
+                                <div>
+                                    郵便番号<span class="req">必須</span>
+                                    <div class="w100">
+                                        <input type="text" name="郵便番号" required="required" class="w274">
+                                        <span class="example">例）520-3015</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    都道府県<span class="req">必須</span>
+                                    <div class="w100">
+                                        <input type="text" name="都道府県" required="required" class="w274">
+                                        <span class="example">例）滋賀県</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    市町村番地<span class="req">必須</span>
+                                    <input type="text" name="市町村番地" required="required">
+                                    <span class="example">例）栗東市安養寺7丁目6-12-3</span>
+                                </div>
+                                <div>
+                                    マンション・ビル名
+                                    <input type="text" name="マンション・ビル名">
+                                    <span class="example">例）〇〇ビル 101号室</span>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="mailform">
+                            <dt class="mfp">電話番号<span class="req">必須</span></dt>
+                            <dd class="mfp">
+                                <input type="tel" data-type="tel" name="電話番号" data-min="9" required="required">
+                                <span class="example">例）090-0000-0000</span>
+                            </dd>
+                        </dl>
+                        <dl class="mailform">
+                            <dt class="mfp">メールアドレス<span class="req">必須</span></dt>
+                            <dd class="mfp">
+                                <input type="email" data-type="email" name="email" required="required">
+                                <span class="example">例）sample@sample.com</span>
+                            </dd>
+                        </dl>
+                        <dl class="mailform">
+                            <dt class="mfp">クラスアップに<br>興味を持った理由<span class="req">必須</span></dt>
+                            <dd class="mfp">
+                                <textarea name="クラスアップに興味を持った理由" required="required"></textarea>
+                            </dd>
+                        </dl>
+                        <dl class="mailform">
+                            <dt class="mfp">卒業（予定）学校名</dt>
+                            <dd class="mfp">
+                                <input type="text" name="卒業（予定）学校名">
+                                <span class="example">例）〇〇大学</span>
+                            </dd>
+                        </dl>
+                        <dl class="mailform">
+                            <dt class="mfp">学部・学科名</dt>
+                            <dd class="mfp">
+                                <input type="text" name="学部・学科名">
+                                <span class="example">例）〇〇学部　〇〇学科</span>
+                            </dd>
+                        </dl>
+                        <dl class="mailform graduation">
+                            <dt class="mfp">卒業（予定）年</dt>
+                            <dd class="mfp">
+                                <div>
+                                    <input type="text" name="卒業（予定）年" class="w125">
+                                    年
+                                    <span class="example">例）2022</span>
+                                </div>
+                                <div>
+                                    <select name="卒業（予定）月">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3" selected="selected">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                    月
+                                </div>
+                            </dd>
+                        </dl>
+                        <div class="mfp_buttons"> 
+                            <button type="submit" class="btn">
+                                <span>内容を確認する</span>
+                                <i class="def"><img src="/recruit/entry/image/icon_btn.png" alt=""></i>
+                                <i class="on"><img src="/recruit/entry/image/icon_btn_on.png" alt=""></i>
+                            </button>
+                        </div>
+                        <div class="caution">
+                            当社（クラスアップ株式会社）は、ユーザーの皆様より取得する個人情報を、採用の目的でのみ利用いたします。<br>
+                            弊社の<a href="https://kuras-up.co.jp/privacy-policy/" class="text-link" target="_blank">個人情報保護方針</a>により厳密に管理し、 お客様の同意を得ないで外部へ提出することは致しません。
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="l-footer">
+        <div class="l-footer__inner">
+            <div class="c-footerLogoSP">
+                <a class="c-footerLogoSP__link" href="">
+                    <figure class="c-footerLogoSP__link__img">
+                        <img src="/recruit/common/image/img_mainLogoSP.svg" alt="">
+                    </figure>
+                </a>
+            </div>
+            <nav class="c-footerNav">
+                <ul class="c-footerNav__list" data-item="1">
+                    <li class="c-footerNav__list__item">
+                        <a class="c-footerNav__list__item__link" href="">会社を知る</a>
+                        <ul class="c-footerNav__list__item__list">
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 理念</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 代表メッセージ</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> ユニークな制度</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 会社概要</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="c-footerNav__list__item">
+                        <a class="c-footerNav__list__item__link" href="">仕事を知る</a>
+                        <ul class="c-footerNav__list__item__list">
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 部署紹介</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> サービスの流れ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="c-footerNav__list__item">
+                        <a class="c-footerNav__list__item__link" href="">人を知る</a>
+                        <ul class="c-footerNav__list__item__list">
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 営業部　能登 大貴</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 商品部　友澤 奎亮</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> システム課　妹尾 祐輔</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="c-footerNav__list" data-item="2">
+                    <li class="c-footerNav__list__item">
+                        <a class="c-footerNav__list__item__link" href="">数字で見る</a>
+                        <ul class="c-footerNav__list__item__list">
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> どんな会社？</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> どんな人たち？</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 滋賀で働く？</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="c-footerNav__list__item">
+                        <a class="c-footerNav__list__item__link" href="">採用情報</a>
+                        <ul class="c-footerNav__list__item__list">
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 新卒採用</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 中途採用</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="c-footerNav__list__item">
+                        <a class="c-footerNav__list__item__link" href="">エントリー</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="c-footerContent">
+                <div class="c-footerContent__logo">
+                    <a class="c-footerContent__logo__link" href="">
+                        <figure class="c-footerContent__logo__link__img">
+                            <img src="/recruit/common/image/img_mainLogo.svg" alt="">
+                        </figure>
+                    </a>
+                </div>
+                <div class="c-footerContent__copyright">
+                    <p class="c-footerContent__copyright__text">Copyright&copy; KURAS-UP. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/gsap@3.7.0/dist/gsap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/gsap@3.7.0/dist/ScrollTrigger.min.js"></script>
+    <script src="/recruit/common/js/common.js"></script>
+    <script src="/recruit/common/js/common_low.js"></script>
+    <!--メールフォームプロ-->
+    <script type="text/javascript" id="mfpjs" src="mailformpro/mailformpro.cgi" charset="UTF-8"></script>
+    <!--/メールフォームプロ-->
+</body>
+</html>

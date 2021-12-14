@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1147.993" height="5685.668" viewBox="0 0 1147.993 5685.668">
+  <defs>
+    <filter id="パス_13480" x="0" y="8.548" width="1119.608" height="5675.459" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#006b9b"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="パス_13543" x="129.103" y="0" width="1018.89" height="5685.668" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-color="#006b9b"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_169" data-name="グループ 169" transform="translate(-113.144 -550.399)">
+    <g transform="matrix(1, 0, 0, 1, 113.14, 550.4)" filter="url(#パス_13480)">
+      <path id="パス_13480-2" data-name="パス 13480" d="M-2716.84,865.035c243.792,120.606,867.534,97.276,908.167,331.442s-80.654,322.719-357.507,549.166-800.7,224.5-701.16,423.1,522.045,284.028,750.2,463.488,172.143,417.83-11.829,640.784-583.256,166.708-521.013,467.451,792.034,521.649,798.088,806.281-591.275,134.695-573.514,323.221,562.143,206.513,644.558,430.884-927.955,257.709-979.662,522.652,541.194,293.871,656.844,468.294-197.993,232.752-197.993,232.752" transform="translate(2887.71 -848.54)" fill="none" stroke="#006b9b" stroke-width="1" opacity="0.15"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 113.14, 550.4)" filter="url(#パス_13543)">
+      <path id="パス_13543-2" data-name="パス 13543" d="M-2689.18,868.858s953.217,201.423,943.012,524.076-988.556,439.242-1002.641,806.819,845.853,280.74,880.131,627.113-693.112,616.528-822.264,933.817,864.632,439.824,859.75,737.019-667.641,148.669-667.641,366.813,696.251,272.766,667.641,505.76-689.687,207.827-785.71,451.1,292.05,294.043,369.626,473.347-59.319,243.867-59.319,243.867" transform="translate(2886.08 -860.87)" fill="none" stroke="#006b9b" stroke-width="1" opacity="0.15"/>
+    </g>
+  </g>
+</svg>

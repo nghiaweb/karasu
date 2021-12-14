@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@use "config/fonts" as f;
+@use "config/variables" as v;
+@use "mixin" as m;
+
+/* ローディング画面 */
+
+.spinner {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../../images/top/loading.gif);
+    background-position: center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    //animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+#loading {
+    width: 100vw;
+    height: 100vh;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    transform: translate(0, 0);
+    background-image: url(../../images/top/loading_bk.gif);
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+.loaded {
+    opacity: 0;
+    visibility: hidden;
+}
+
+// .wrapper {
+//     opacity: 0;
+// }
+
+/* ローディングアニメーション */
+
+@keyframes sk-scaleout {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1.0);
+        opacity: 0;
+    }
+}

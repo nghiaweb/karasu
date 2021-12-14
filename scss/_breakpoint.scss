@@ -1,0 +1,36 @@
+// $breakpoints: (
+//   "sm": "screen and (min-width: 400px)",
+//   "md": "screen and (min-width: 768px)",
+//   "lg": "screen and (min-width: 1000px)",
+//   "xl": "screen and (min-width: 1200px)",
+// ) !default;
+.col {
+    margin-bottom: 2rem;
+    @include mq(md) {
+        margin-bottom: 0;
+        &-3 {
+            width: 24%;
+        }
+        &-4 {
+            width: 32%;
+        }
+        &-6 {
+            width: 48%;
+        }
+        &-8 {
+            width: 64%;
+        }
+        &-12 {
+            width: 100%;
+        }
+    }
+}
+
+@include mq(md) {
+    .flex33 {
+        width: 33%;
+    }
+    .flex50 {
+        width: 50%;
+    }
+}

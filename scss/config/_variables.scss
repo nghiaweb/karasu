@@ -1,0 +1,17 @@
+@use "fonts" as f;
+//fonts
+$font-en: "Lato";
+$font-sans: "Noto Sans JP";
+$font-serif: "Noto Serif JP";
+$blue: rgba(0, 107, 155, 1);
+$blue02: rgba(0, 137, 155, 1);
+$white: rgba(255, 255, 255, 1);
+$black: rgba(8, 8, 8, 0.8);
+$color_skyblue:rgba(0, 137, 155, 0.57);
+$base_color: $blue;
+$base_sub_color: $blue02;
+$base_font_color: $blue;
+$base_font_color_wh: $white;
+$base_font_color_br: $black;
+//breakpoints
+$breakpoints: ( "sm": "screen and (min-width: 400px)", "md": "screen and (min-width: 768px)", "lg": "screen and (min-width: 1000px)", "xl": "screen and (min-width: 1200px)", ) !default;

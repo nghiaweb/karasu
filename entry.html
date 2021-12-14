@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/data.css">
+    <title>JOB INFO</title>
+</head>
+
+<body id="entry">
+    <div class="wrapper">
+
+        <!-- header -->
+        <header class="header">
+            <div class="header-container">
+                <h1 class="header-logo">
+                    <a href="."><img src="./images/header-logo.svg" alt="Kurasup"></a>
+                </h1>
+                <nav class="gnav">
+                    <ul class="gnav-list">
+                        <li class="gnav-item g-company"><a href="#about">COMPANY<br><span>会社を知る</span></a></li>
+                        <li class="gnav-item g-work"><a href="#works">WORKS<br><span>仕事を知る</span></a></li>
+                        <li class="gnav-item g-membaer"><a href="#skill">MEMBER<br><span>人を知る</span></a></li>
+                        <li class="gnav-item g-data"><a href="#contact">DATA<br><span>数字で見る</span></a></li>
+                        <li class="gnav-item g-job"><a href="#">JOB INFO<br><span>採用情報</span></a></li>
+                        <li class="gnav-item g-entry"><a href="#">ENTRY<br><span>エントリー</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- /header -->
+
+        <main class="data-content">
+
+            <!-- mv -->
+            <div class="kasou-mv">
+                <div class="container">
+                    <div class="kasou-txt">
+                        <h2 class="kasou-title"><span>E</span><span>N</span><span>T</span><span>R</span><span>Y</span></h2>
+                        <p class="kasou-btn js-anime-c txt01">エントリー</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /mv -->
+
+            <section class="entry section">
+                <div class="entry_txt">クラスアップへ入社をご希望の方は、必要事項を入力のうえ、以下フォームよりご応募ください。<br>
+                    <br> （必須）は入力必須項目です。
+                </div>
+                <div class="entry_form">
+                    <form action="/form.php" method="post">
+                        <div>
+                            <label for="name">氏名 <span class="txt_red">必須</span></label>
+                            <input type="text" id="name" name="name">
+                            <p>例）田中 太郎</p>
+                        </div>
+                        <div>
+                            <label for="email">氏名（ふりがな）<span class="txt_red">必須</span></label>
+                            <input type="mail" id="email" name="email">
+                            <p>例）田中 太郎</p>
+                        </div>
+                        <div>
+                            <label for="message">生年月日 <span class="txt_red">必須</span></label>
+                            <input type="mail" id="email" name="email"> 年<input type="mail" id="email" name="email">月<input type="mail" id="email" name="email">日
+                        </div>
+                        <input type="submit" value="内容を確認する">
+                        <p>当社（クラスアップ株式会社）は、ユーザーの皆様より取得する個人情報を、採用の目的でのみ利用いたします。<br>弊社の個人情報保護方針により厳密に管理し、 お客様の同意を得ないで外部へ提出することは致しません。</p>
+                    </form>
+                </div>
+            </section>
+
+
+
+
+    </div>
+
+    </section>
+    <!-- JOIN -->
+    <section class="join section" id="join">
+        <div class="join-container">
+            <h2 class="join-title">
+                <span>J</span>
+                <span>O</span>
+                <span>I</span>
+                <span>N</span></h2>
+            <ul class="join-list">
+                <li>
+                    <div class="join-txt">
+                        <h2 class="join-title02">INFO</h2>
+                        <p class="join-btn">採用情報</p>
+                    </div>
+                    <p class="join-img"><img src="../images/join_img01.jpg" alt=""></p>
+                </li>
+                <li>
+                    <div class="join-txt">
+                        <h2 class="join-title02">ENTRY</h2>
+                        <p class="join-btn">エントリー</p>
+                    </div>
+                    <p class="join-img"><img src="../images/join_img02.jpg" alt=""></p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- /JOIN -->
+
+
+    <!-- footer -->
+    <footer class=" footer ">
+        <div class="footer-container ">
+            <ul>
+                <li class="footer-company ">
+                    <h3>会社を知る</h3>
+                    <ul class="footer-item ">
+                        <li>理念</li>
+                        <li>代表メッセージ</li>
+                        <li>ユニークな制度</li>
+                        <li>会社概要</li>
+                    </ul>
+                </li>
+                <li class="footer-work ">
+                    <h3>仕事を知る</h3>
+                    <ul class="footer-item ">
+                        <li>部署紹介</li>
+                        <li>サービスの流れ</li>
+                    </ul>
+                </li>
+                <li class="footer-member ">
+                    <h3>人を知る</h3>
+                    <ul class="footer-item ">
+                        <li>営業部　能登 大貴</li>
+                        <li>商品部　友澤 奎亮</li>
+                        <li>システム課　妹尾 祐輔</li>
+                    </ul>
+                </li>
+                <li class="footer-data ">
+                    <h3>数字で見る</h3>
+                    <ul class="footer-item ">
+                        <li>どんな会社？</li>
+                        <li>どんな人たち？</li>
+                        <li>滋賀で働く？</li>
+                    </ul>
+                </li>
+                <li class="footer-info ">
+                    <h3>採用情報</h3>
+                    <ul class="footer-item ">
+                        <li>&gt;新卒採用</li>
+                        <li>中途採用</li>
+                    </ul>
+                </li>
+                <li class="footer-entery ">
+                    <h3>エントリー</h3>
+                </li>
+            </ul>
+            <div class="footer-under ">
+                <div class="footer-logo "><img src="./images/header-logo.svg " alt="KURAS-UP "></div>
+                <div class="copyright ">Copyright&copy; KURAS-UP. All Rights Reserved.</div>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
+    <script src="//cdn.jsdelivr.net/npm/gsap@3.7.0/dist/gsap.min.js "></script>
+    <script src="//cdn.jsdelivr.net/npm/gsap@3.7.0/dist/ScrollTrigger.min.js "></script>
+    <script src="js/common.js "></script>
+</body>
+
+</html>

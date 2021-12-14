@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMBER 人を知る｜Kuras up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/recruit/common/css/add.css">
+    <link rel="stylesheet" href="/recruit/member/css/member.css">
+</head>
+<body>
+    <header class="l-header">
+        <div class="l-header__inner">
+            <div class="c-headerLogo">
+                <a class="c-headerLogo__link" href="">
+                    <figure class="c-headerLogo__link__img">
+                        <img src="/recruit/common/image/img_mainLogo.png" alt="">
+                    </figure>
+                </a>
+            </div>
+            <div class="c-headerSpmenuButton">
+                <figure class="c-headerSpmenuButton__img">
+                    <img src="/recruit/common/image/img_spMenuButton.svg" alt="">
+                </figure>
+                <figure class="c-headerSpmenuButton__img02">
+                    <img src="/recruit/common/image/img_spMenuButton02.svg" alt="">
+                </figure>
+            </div>
+            <nav class="c-pcGlobalNav">
+                <ul class="c-pcGlobalNav__list">
+                    <li class="c-pcGlobalNav__list__item" data-item="1">
+                        <a class="c-pcGlobalNav__list__item__link" href="">
+                            <p class="c-pcGlobalNav__list__item__link__text01">COMPANY</p>
+                            <p class="c-pcGlobalNav__list__item__link__text02">会社を知る</p>
+                        </a>
+                    </li>
+                    <li class="c-pcGlobalNav__list__item" data-item="2">
+                        <a class="c-pcGlobalNav__list__item__link" href="">
+                            <p class="c-pcGlobalNav__list__item__link__text01">WORKS</p>
+                            <p class="c-pcGlobalNav__list__item__link__text02">仕事を知る</p>
+                        </a>
+                    </li>
+                    <li class="c-pcGlobalNav__list__item" data-item="3">
+                        <a class="c-pcGlobalNav__list__item__link" href="">
+                            <p class="c-pcGlobalNav__list__item__link__text01">MEMBER</p>
+                            <p class="c-pcGlobalNav__list__item__link__text02">人を知る</p>
+                        </a>
+                    </li>
+                    <li class="c-pcGlobalNav__list__item" data-item="4">
+                        <a class="c-pcGlobalNav__list__item__link" href="">
+                            <p class="c-pcGlobalNav__list__item__link__text01">DATA</p>
+                            <p class="c-pcGlobalNav__list__item__link__text02">数字で見る</p>
+                        </a>
+                    </li>
+                    <li class="c-pcGlobalNav__list__item" data-item="5">
+                        <a class="c-pcGlobalNav__list__item__link" href="">
+                            <p class="c-pcGlobalNav__list__item__link__text01">JOB INFO</p>
+                            <p class="c-pcGlobalNav__list__item__link__text02">採用情報</p>
+                        </a>
+                    </li>
+                    <li class="c-pcGlobalNav__list__item" data-item="6">
+                        <a class="c-pcGlobalNav__list__item__link" href="">
+                            <p class="c-pcGlobalNav__list__item__link__text01">ENTRY</p>
+                            <p class="c-pcGlobalNav__list__item__link__text02">エントリー</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="c-spGlobalNav">
+            <ul class="c-spGlobalNav__list">
+                <li class="c-spGlobalNav__list__item" data-item="1">
+                    <div class="c-spGlobalNav__list__item__inner">
+                        <a class="c-spGlobalNav__list__item__inner__link" href="">
+                            <span class="c-spGlobalNav__list__item__inner__link__text01">TOP</span>
+                            <span class="c-spGlobalNav__list__item__inner__link__text02">トップ</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="c-spGlobalNav__list__item" data-item="2">
+                    <div class="c-spGlobalNav__list__item__inner">
+                        <a class="c-spGlobalNav__list__item__inner__link" href="">
+                            <span class="c-spGlobalNav__list__item__inner__link__text01">COMPANY</span>
+                            <span class="c-spGlobalNav__list__item__inner__link__text02">会社を知る</span>
+                        </a>
+                        <figure class="c-spGlobalNav__list__item__inner__button">
+                            <img src="/recruit/common/image/icon_arrow01.svg" alt="">
+                        </figure>
+                    </div>
+                    <ul class="c-spGlobalNav__list__item__list">
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">理念</a>
+                        </li>
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">代表メッセージ</a>
+                        </li>
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">ユニークな制度</a>
+                        </li>
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">会社概要</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="c-spGlobalNav__list__item" data-item="3">
+                    <div class="c-spGlobalNav__list__item__inner">
+                        <a class="c-spGlobalNav__list__item__inner__link" href="">
+                            <span class="c-spGlobalNav__list__item__inner__link__text01">WORKS</span>
+                            <span class="c-spGlobalNav__list__item__inner__link__text02">仕事を知る</span>
+                        </a>
+                        <figure class="c-spGlobalNav__list__item__inner__button">
+                            <img src="/recruit/common/image/icon_arrow01.svg" alt="">
+                        </figure>
+                    </div>
+                    <ul class="c-spGlobalNav__list__item__list">
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">部署紹介</a>
+                        </li>
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">サービスの流れ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="c-spGlobalNav__list__item" data-item="4">
+                    <div class="c-spGlobalNav__list__item__inner">
+                        <a class="c-spGlobalNav__list__item__inner__link" href="">
+                            <span class="c-spGlobalNav__list__item__inner__link__text01">MEMBER</span>
+                            <span class="c-spGlobalNav__list__item__inner__link__text02">人を知る</span>
+                        </a>
+                        <figure class="c-spGlobalNav__list__item__inner__button">
+                            <img src="/recruit/common/image/icon_arrow01.svg" alt="">
+                        </figure>
+                    </div>
+                    <ul class="c-spGlobalNav__list__item__list">
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">営業部　能登 大貴</a>
+                        </li>
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">商品部　友澤 奎亮</a>
+                        </li>
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">システム課　妹尾 祐輔</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="c-spGlobalNav__list__item" data-item="5">
+                    <div class="c-spGlobalNav__list__item__inner">
+                        <a class="c-spGlobalNav__list__item__inner__link" href="">
+                            <span class="c-spGlobalNav__list__item__inner__link__text01">DATA</span>
+                            <span class="c-spGlobalNav__list__item__inner__link__text02">数字で見る</span>
+                        </a>
+                        <figure class="c-spGlobalNav__list__item__inner__button">
+                            <img src="/recruit/common/image/icon_arrow01.svg" alt="">
+                        </figure>
+                    </div>
+                    <ul class="c-spGlobalNav__list__item__list">
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">どんな会社？</a>
+                        </li>
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">どんな人たち？</a>
+                        </li>
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">滋賀で働く？</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="c-spGlobalNav__list__item" data-item="6">
+                    <div class="c-spGlobalNav__list__item__inner">
+                        <a class="c-spGlobalNav__list__item__inner__link" href="">
+                            <span class="c-spGlobalNav__list__item__inner__link__text01">JOB INFO</span>
+                            <span class="c-spGlobalNav__list__item__inner__link__text02">採用情報</span>
+                        </a>
+                        <figure class="c-spGlobalNav__list__item__inner__button">
+                            <img src="/recruit/common/image/icon_arrow01.svg" alt="">
+                        </figure>
+                    </div>
+                    <ul class="c-spGlobalNav__list__item__list">
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">選考の流れ</a>
+                        </li>
+                        <li class="c-spGlobalNav__list__item__list__item">
+                            <a class="c-spGlobalNav__list__item__list__item__link" href="">募集要項</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <a class="c-spGlobalNav__link" href="">ENTRY</a>
+        </nav>
+    </header>
+
+    <main class="l-main" data-page="member">
+        <div class="c-mainVisual p-member-mainVisual">
+            <figure class="c-mainVisual__img">
+                <img class="u-d--none--pc" src="/recruit/member/image/img_main_sp.jpg" alt="">
+                <img class="u-d--none02--sp" src="/recruit/member/image/img_main_pc.jpg" alt="">
+            </figure>
+            <div class="c-mainVisual__inner">
+                <h1 class="c-mainVisual__inner__heading">
+                    <span class="c-mainVisual__inner__heading__text01">MEMBER</span>
+                    <span class="c-mainVisual__inner__heading__text02">人を知る</span>
+                </h1>
+            </div>
+        </div>
+
+        <div class="p-member-link">
+            <ul class="p-member-link__list">
+                <li class="p-member-link__list__item">
+                    <a class="p-member-link__list__item__link" href="#link01">
+                        <figure class="p-member-link__list__item__link__img">
+                            <img class="u-d--none--pc" src="/recruit/member/image/img_001_sp.jpg" alt="">
+                            <img class="u-d--none02--sp" src="/recruit/member/image/img_001_pc.jpg" alt="">
+                        </figure>
+                        <div class="p-member-link__list__item__link__inner">
+                            <div class="p-member-link__list__item__link__inner__content01">
+                                <div class="p-member-link__list__item__link__inner__content01__text">
+                                    <p class="p-member-link__list__item__link__inner__content01__text__text01">営業部</p>
+                                    <p class="p-member-link__list__item__link__inner__content01__text__text02">能登 大貴</p>
+                                </div>
+                                <figure class="p-member-link__list__item__link__inner__content01__img">
+                                    <img src="/recruit/common/image/icon_arrow01.svg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="p-member-link__list__item__link__inner02">
+                            <div class="p-member-link__list__item__link__inner02__content02">
+                                <p class="p-member-link__list__item__link__inner02__content02__text">お客様と一緒に、<br>売上をつくる</p>
+                            </div>
+                            <div class="p-member-link__list__item__link__inner02__content01">
+                                <div class="p-member-link__list__item__link__inner02__content01__text">
+                                    <p class="p-member-link__list__item__link__inner02__content01__text__text01">営業部</p>
+                                    <p class="p-member-link__list__item__link__inner02__content01__text__text02">能登 大貴</p>
+                                </div>
+                                <figure class="p-member-link__list__item__link__inner02__content01__img">
+                                    <img src="/recruit/common/image/icon_arrow03.svg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="p-member-link__list__item">
+                    <a class="p-member-link__list__item__link" href="#link02">
+                        <figure class="p-member-link__list__item__link__img">
+                            <img class="u-d--none--pc" src="/recruit/member/image/img_002_sp.jpg" alt="">
+                            <img class="u-d--none02--sp" src="/recruit/member/image/img_002_pc.jpg" alt="">
+                        </figure>
+                        <div class="p-member-link__list__item__link__inner">
+                            <div class="p-member-link__list__item__link__inner__content01">
+                                <div class="p-member-link__list__item__link__inner__content01__text">
+                                    <p class="p-member-link__list__item__link__inner__content01__text__text01">商品部</p>
+                                    <p class="p-member-link__list__item__link__inner__content01__text__text02">友澤 奎亮</p>
+                                </div>
+                                <figure class="p-member-link__list__item__link__inner__content01__img">
+                                    <img src="/recruit/common/image/icon_arrow01.svg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="p-member-link__list__item__link__inner02">
+                            <div class="p-member-link__list__item__link__inner02__content02">
+                                <p class="p-member-link__list__item__link__inner02__content02__text">作業効率を<br>追求する</p>
+                            </div>
+                            <div class="p-member-link__list__item__link__inner02__content01">
+                                <div class="p-member-link__list__item__link__inner02__content01__text">
+                                    <p class="p-member-link__list__item__link__inner02__content01__text__text01">商品部</p>
+                                    <p class="p-member-link__list__item__link__inner02__content01__text__text02">友澤 奎亮</p>
+                                </div>
+                                <figure class="p-member-link__list__item__link__inner02__content01__img">
+                                    <img src="/recruit/common/image/icon_arrow03.svg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="p-member-link__list__item">
+                    <a class="p-member-link__list__item__link" href="#link03">
+                        <figure class="p-member-link__list__item__link__img">
+                            <img class="u-d--none--pc" src="/recruit/member/image/img_003_sp.jpg" alt="">
+                            <img class="u-d--none02--sp" src="/recruit/member/image/img_003_pc.jpg" alt="">
+                        </figure>
+                        <div class="p-member-link__list__item__link__inner">
+                            <div class="p-member-link__list__item__link__inner__content01">
+                                <div class="p-member-link__list__item__link__inner__content01__text">
+                                    <p class="p-member-link__list__item__link__inner__content01__text__text01">システム課</p>
+                                    <p class="p-member-link__list__item__link__inner__content01__text__text02">妹尾 祐輔</p>
+                                </div>
+                                <figure class="p-member-link__list__item__link__inner__content01__img">
+                                    <img src="/recruit/common/image/icon_arrow01.svg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="p-member-link__list__item__link__inner02">
+                            <div class="p-member-link__list__item__link__inner02__content02">
+                                <p class="p-member-link__list__item__link__inner02__content02__text">知的好奇心を<br>満たせる会社</p>
+                            </div>
+                            <div class="p-member-link__list__item__link__inner02__content01">
+                                <div class="p-member-link__list__item__link__inner02__content01__text">
+                                    <p class="p-member-link__list__item__link__inner02__content01__text__text01">システム課</p>
+                                    <p class="p-member-link__list__item__link__inner02__content01__text__text02">妹尾 祐輔</p>
+                                </div>
+                                <figure class="p-member-link__list__item__link__inner02__content01__img">
+                                    <img src="/recruit/common/image/icon_arrow03.svg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="p-member-banner">
+            <a class="p-member-banner__link" href="https://youtu.be/LqKz_jBwu5U" target="_blank">
+                <figure class="p-member-banner__link__img">
+                    <img class="u-d--none--pc" src="/recruit/member/image/img_004_sp.jpg" alt="">
+                    <img class="u-d--none02--sp" src="/recruit/member/image/img_004_pc.jpg" alt="">
+                </figure>
+                <div class="p-member-banner__link__content">
+                    <p class="p-member-banner__link__content__text">先輩たちの生の声が聞ける、<br class="u-d--none--pc">スペシャルムービー公開中</p>
+                    <figure class="p-member-banner__link__content__img">
+                        <img src="/recruit/common/image/icon_play.svg" alt="">
+                    </figure>
+                </div>
+            </a>
+        </div>
+
+        <section class="p-member-section" data-item="1" data-aos="fade-up" data-aos-offset="300">
+            <div class="c-anker"><span class="c-anker__point" id="link01"></span></div>
+
+            <div class="p-member-content" data-item="1">
+                <div class="p-member-content__mainImg">
+                    <div class="p-member-content__mainImg__inner">
+                        <div class="p-member-content__mainImg__inner__bg">
+                            <p class="p-member-content__mainImg__inner__bg__text">DAIKI NOTO</p>
+                        </div>
+                        <figure class="p-member-content__mainImg__inner__img">
+                            <img src="/recruit/member/image/img_005.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="p-member-content__profile">
+                    <div class="p-member-content__profile__tag">
+                        <p class="p-member-content__profile__tag__text">お客様と一緒に、<br class="u-d--none--pc">売上をつくる</p>
+                    </div>
+                    <div class="p-member-content__profile__inner">
+                        <p class="p-member-content__profile__inner__name">能登 大貴<span>DAIKI NOTO</span></p>
+                        <div class="p-member-content__profile__inner__text">
+                            <p class="p-member-content__profile__inner__text__text01">営業部</p>
+                            <p class="p-member-content__profile__inner__text__text02">2019年 新卒入社</p>
+                        </div>
+                        <div class="p-member-content__profile__inner__content">
+                            <p class="p-member-content__profile__inner__content__heading"><span>入社理由</span></p>
+                            <p class="p-member-content__profile__inner__content__text">新しい雑貨屋さんをネットで調べて訪れるくらい、昔から雑貨好きでした。就職活動では様々な企業を検討していましたが、やはり自分の好きなものに携われることが魅力的だったので、クラスアップに入社を決めました。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-member-content__card">
+                    <ul class="p-member-content__card__list">
+                        <li class="p-member-content__card__list__item" data-item="1_1">
+                            <div class="p-member-content__card__list__item__content">
+                                <div class="p-member-content__card__list__item__content__tag">
+                                    <p class="p-member-content__card__list__item__content__tag__text">仕事内容</p>
+                                </div>
+                                <p class="p-member-content__card__list__item__content__text">クラスアップは主にBtoBのビジネスを展開しています。私自身は、雑貨の販売店様に販売方法をお伝えしたり、店舗様と売場づくりを考えたりしています。営業担当として、「一緒に売上を作る」をテーマに仕事に取り組んでいます。</p>
+                            </div>
+                            <figure class="p-member-content__card__list__item__img">
+                                <img class="u-d--none--pc" src="/recruit/member/image/img_006_sp.jpg" alt="">
+                                <img class="u-d--none02--sp" src="/recruit/member/image/img_006_pc.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li class="p-member-content__card__list__item" data-item="1_2">
+                            <div class="p-member-content__card__list__item__content">
+                                <div class="p-member-content__card__list__item__content__tag">
+                                    <p class="p-member-content__card__list__item__content__tag__text">嬉しかったこと</p>
+                                </div>
+                                <p class="p-member-content__card__list__item__content__text">「こんな売り方はどうですか？」と販売方法をお得意様にご提案させていただき、大きく結果が出たときですね。「君が言うならやってみるよ」と導入を決断してくださったので、そのときはとても嬉しかったです。さらに後日、ご本人から売上が上がったとお喜びのお声を頂けたときは、今までで一番嬉しさを感じました。</p>
+                            </div>
+                        </li>
+                        <li class="p-member-content__card__list__item" data-item="1_3">
+                            <div class="p-member-content__card__list__item__content">
+                                <div class="p-member-content__card__list__item__content__tag">
+                                    <p class="p-member-content__card__list__item__content__tag__text">会社の好きなところ</p>
+                                </div>
+                                <p class="p-member-content__card__list__item__content__text">雑貨が好きなので、新商品の情報が入ってくるのは嬉しいですね。売れている商品の情報があれば、プライベートで購入することもありますし、新店舗の情報が入れば誰よりも早く訪問したりしています。</p>
+                            </div>
+                            <figure class="p-member-content__card__list__item__img">
+                                <img class="u-d--none--pc" src="/recruit/member/image/img_007_sp.jpg" alt="">
+                                <img class="u-d--none02--sp" src="/recruit/member/image/img_007_pc.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li class="p-member-content__card__list__item" data-item="1_4">
+                            <div class="p-member-content__card__list__item__content">
+                                <div class="p-member-content__card__list__item__content__tag">
+                                    <p class="p-member-content__card__list__item__content__tag__text">今後の目標</p>
+                                </div>
+                                <p class="p-member-content__card__list__item__content__text">弊社は販売店さんとオリジナル商品を企画するなど、新しい取り組みにチャレンジする機会が多いです。そして私もそういった新商品の開発に携わり、世に知られていないような商品を生み出したいです。営業の仕事はやればやるほど業界の理解を深めることができるので、今後さらに知識を養った上で企画に携わりたいです。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-member-section" data-item="2" data-aos="fade-up" data-aos-offset="300">
+            <div class="c-anker"><span class="c-anker__point" id="link02"></span></div>
+
+            <div class="p-member-content" data-item="2">
+                <div class="p-member-content__mainImg">
+                    <div class="p-member-content__mainImg__inner">
+                        <div class="p-member-content__mainImg__inner__bg">
+                            <p class="p-member-content__mainImg__inner__bg__text">KEISUKE TOMOZAWA</p>
+                        </div>
+                        <figure class="p-member-content__mainImg__inner__img">
+                            <img src="/recruit/member/image/img_008.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="p-member-content__profile">
+                    <div class="p-member-content__profile__tag">
+                        <p class="p-member-content__profile__tag__text">作業効率を追求する</p>
+                    </div>
+                    <div class="p-member-content__profile__inner">
+                        <p class="p-member-content__profile__inner__name">友澤 奎亮<span>KEISUKE TOMOZAWA</span></p>
+                        <div class="p-member-content__profile__inner__text">
+                            <p class="p-member-content__profile__inner__text__text01">商品部</p>
+                            <p class="p-member-content__profile__inner__text__text02">2018年 新卒入社</p>
+                        </div>
+                        <div class="p-member-content__profile__inner__content">
+                            <p class="p-member-content__profile__inner__content__heading"><span>入社理由</span></p>
+                            <p class="p-member-content__profile__inner__content__text">学生時代、懐石料理屋でアルバイトをしていたのですが、その仕事がとても楽しかったので「楽しめる仕事を選びたい」と思っていました。弊社の説明会では座談会があり、先輩社員と話す機会がありました。そこで言われた「最初は日用品に興味はなかったが、入社してから新しい世界を知れて楽しかった」という言葉が自分に刺さったのを覚えています。やりたいことが明確ではなかったので、その感覚を信じて入社しました。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-member-content__card">
+                    <ul class="p-member-content__card__list">
+                        <li class="p-member-content__card__list__item" data-item="2_1">
+                            <div class="p-member-content__card__list__item__content">
+                                <div class="p-member-content__card__list__item__content__tag">
+                                    <p class="p-member-content__card__list__item__content__tag__text">仕事内容</p>
+                                </div>
+                                <p class="p-member-content__card__list__item__content__text">商品部は物の流れを管理する部署で、いわゆる物流を担っています。自分はその中で出荷を担当しており、どうすれば効率よく出荷できるか、倉庫の商品配置などを試行錯誤しています。配置だけで想像以上に作業効率に差は出ます。数秒短縮するだけで、一日の結果は結構変わるものです。商品部の醍醐味は、そういった施策の結果がすぐに表れることだと思います。出荷をするということは売上が上がることでもあるので、会社の数字に関わっている責任感を忘れず業務に取り組んでいます。</p>
+                            </div>
+                            <figure class="p-member-content__card__list__item__img">
+                                <img class="u-d--none--pc" src="/recruit/member/image/img_009_sp.jpg" alt="">
+                                <img class="u-d--none02--sp" src="/recruit/member/image/img_009_pc.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li class="p-member-content__card__list__item" data-item="2_2">
+                            <div class="p-member-content__card__list__item__content">
+                                <div class="p-member-content__card__list__item__content__tag">
+                                    <p class="p-member-content__card__list__item__content__tag__text">嬉しかったこと</p>
+                                </div>
+                                <p class="p-member-content__card__list__item__content__text">倉庫で勤務するパートさんと、一日何件出荷するか予定を立てています。目標より多く出荷できたときは、効率化できたということなので達成感を感じます。メンバーのコンディションや商品の梱包によって結果の変動はありますが、工夫をしてみたときの変動はそれ以上に大きいのでとても興味深い仕事だと思います。</p>
+                            </div>
+                        </li>
+                        <li class="p-member-content__card__list__item" data-item="2_3">
+                            <div class="p-member-content__card__list__item__content">
+                                <div class="p-member-content__card__list__item__content__tag">
+                                    <p class="p-member-content__card__list__item__content__tag__text">会社の好きなところ</p>
+                                </div>
+                                <p class="p-member-content__card__list__item__content__text">一言で言うと、色んなことに挑戦できることですね。先輩にアイデアを伝えると、いつも「やってみなよ」という答えが返ってきます。その後のフォローも手厚いと思います。特に自分の部署は業務改善が常にテーマなので、そういった社風であることはとてもありがたいです。</p>
+                            </div>
+                            <figure class="p-member-content__card__list__item__img">
+                                <img class="u-d--none--pc" src="/recruit/member/image/img_010_sp.jpg" alt="">
+                                <img class="u-d--none02--sp" src="/recruit/member/image/img_010_pc.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li class="p-member-content__card__list__item" data-item="2_4">
+                            <div class="p-member-content__card__list__item__content">
+                                <div class="p-member-content__card__list__item__content__tag">
+                                    <p class="p-member-content__card__list__item__content__tag__text">今後の目標</p>
+                                </div>
+                                <p class="p-member-content__card__list__item__content__text">入社してまだ短いので、まだまだできることが少ないかもしれません。しかし、将来は先輩と肩を並べて仕事ができるようになりたいです。また、色んな角度から物事を考察し、ミスを減らしながら効率化を追求できるようにもなりたいです。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-member-section" data-item="3" data-aos="fade-up" data-aos-offset="300">
+            <div class="c-anker"><span class="c-anker__point" id="link03"></span></div>
+
+            <div class="p-member-content" data-item="3">
+                <div class="p-member-content__mainImg">
+                    <div class="p-member-content__mainImg__inner">
+                        <div class="p-member-content__mainImg__inner__bg">
+                            <p class="p-member-content__mainImg__inner__bg__text">YUSUKE SENOO</p>
+                        </div>
+                        <figure class="p-member-content__mainImg__inner__img">
+                            <img src="/recruit/member/image/img_011.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="p-member-content__profile">
+                    <div class="p-member-content__profile__tag">
+                        <p class="p-member-content__profile__tag__text">知的好奇心を<br class="u-d--none--pc">満たせる会社</p>
+                    </div>
+                    <div class="p-member-content__profile__inner">
+                        <p class="p-member-content__profile__inner__name">妹尾 祐輔<span>YUSUKE SENOO</span></p>
+                        <div class="p-member-content__profile__inner__text">
+                            <p class="p-member-content__profile__inner__text__text01">システム課</p>
+                            <p class="p-member-content__profile__inner__text__text02">2020年 新卒入社</p>
+                        </div>
+                        <div class="p-member-content__profile__inner__content">
+                            <p class="p-member-content__profile__inner__content__heading"><span>入社理由</span></p>
+                            <p class="p-member-content__profile__inner__content__text">最初はデザイナー職でエントリーしたのですが、選考を受ける前にシステムエンジニアも募集している旨をお聞きし、両方に興味があったので選考を受けようと思いました。選考の段階で、部長職の人が面接対応してくれたのですが、終始笑顔が絶えず楽しくお話できたのを覚えています。どの会社よりも熱意が伝わってきたので、この人たちと仕事したいと思いました。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-member-content__card">
+                    <ul class="p-member-content__card__list">
+                        <li class="p-member-content__card__list__item" data-item="3_1">
+                            <div class="p-member-content__card__list__item__content">
+                                <div class="p-member-content__card__list__item__content__tag">
+                                    <p class="p-member-content__card__list__item__content__tag__text">仕事内容</p>
+                                </div>
+                                <p class="p-member-content__card__list__item__content__text">ECサイトに商品データを反映する仕事をしています。専門用語にはなりますが、サイトを運営するにはサーバーなどのインフラを整えることが不可欠ですので、そういった分野の管理も行っております。会社のITに関わることはほとんど全て携わっています。</p>
+                            </div>
+                            <figure class="p-member-content__card__list__item__img">
+                                <img class="u-d--none--pc" src="/recruit/member/image/img_012_sp.jpg" alt="">
+                                <img class="u-d--none02--sp" src="/recruit/member/image/img_012_pc.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li class="p-member-content__card__list__item" data-item="3_2">
+                            <div class="p-member-content__card__list__item__content">
+                                <div class="p-member-content__card__list__item__content__tag">
+                                    <p class="p-member-content__card__list__item__content__tag__text">嬉しかったこと</p>
+                                </div>
+                                <p class="p-member-content__card__list__item__content__text">この仕事では常に新しい知識が得られます。私は学ぶことが大好きなので、知識がどんどん増えていくのはとても嬉しいです。知的好奇心が満たされていくのがこの仕事の醍醐味だと思います。学校でいくらプログラミングを学んでも、実務の内容とは少なからずギャップがあります。学校で得た知識が役に立っているのは間違いありませんが、ビジネスにおいては様々な応用が必要だと思い知らされます。</p>
+                            </div>
+                        </li>
+                        <li class="p-member-content__card__list__item" data-item="3_3">
+                            <div class="p-member-content__card__list__item__content">
+                                <div class="p-member-content__card__list__item__content__tag">
+                                    <p class="p-member-content__card__list__item__content__tag__text">会社の好きなところ</p>
+                                </div>
+                                <p class="p-member-content__card__list__item__content__text">色んな人がいて、自分にない知識に触れられるのが楽しいです。他の人と話すたびに、それぞれ学びがあると感じます。情報科学を勉強していた仲間は近い考えをもっていたり、似たキャリアを歩んだりする人が多いのですが、横の繋がりが強い弊社では様々なバックグラウンドの方々と話せてとても有意義です。</p>
+                            </div>
+                            <figure class="p-member-content__card__list__item__img">
+                                <img class="u-d--none--pc" src="/recruit/member/image/img_013_sp.jpg" alt="">
+                                <img class="u-d--none02--sp" src="/recruit/member/image/img_013_pc.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li class="p-member-content__card__list__item" data-item="3_4">
+                            <div class="p-member-content__card__list__item__content">
+                                <div class="p-member-content__card__list__item__content__tag">
+                                    <p class="p-member-content__card__list__item__content__tag__text">今後の目標</p>
+                                </div>
+                                <p class="p-member-content__card__list__item__content__text">ユーザーのアクセスなどを解析し、より快適に使えるサイトを作りたいです。また、ショッピングモールに頼らず自分たち独自のサイトを作りたいとも考えています。さらにその中で人工知能を織り交ぜたいと思っており、興味のあることは無限にありますね。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="l-section">
+            <div class="c-heading02">
+                <h2 class="c-heading02__text">JOIN</h2>
+            </div>
+            <ul class="c-link02">
+                <li class="c-link02__item">
+                    <a class="c-link02__item__link" href="">
+                        <figure class="c-link02__item__link__img">
+                            <img data-item="1" src="/recruit/common/image/bg_info_sp.jpg" alt="">
+                            <img data-item="2" src="/recruit/common/image/bg_info_pc01.jpg" alt="">
+                            <img data-item="3" src="/recruit/common/image/bg_info_pc02.jpg" alt="">
+                        </figure>
+                        <div class="c-link02__item__link__text">
+                            <p class="c-link02__item__link__text__text01">INFO</p>
+                            <p class="c-link02__item__link__text__text02">採用情報</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="c-link02__item">
+                    <a class="c-link02__item__link" href="">
+                        <figure class="c-link02__item__link__img">
+                            <img data-item="1" src="/recruit/common/image/bg_entry_sp.jpg" alt="">
+                            <img data-item="2" src="/recruit/common/image/bg_entry_pc01.jpg" alt="">
+                            <img data-item="3" src="/recruit/common/image/bg_entry_pc02.jpg" alt="">
+                        </figure>
+                        <div class="c-link02__item__link__text">
+                            <p class="c-link02__item__link__text__text01">ENTRY</p>
+                            <p class="c-link02__item__link__text__text02">エントリー</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="l-footer">
+        <div class="l-footer__inner">
+            <div class="c-footerLogoSP">
+                <a class="c-footerLogoSP__link" href="">
+                    <figure class="c-footerLogoSP__link__img">
+                        <img src="/recruit/common/image/img_mainLogoSP.svg" alt="">
+                    </figure>
+                </a>
+            </div>
+            <nav class="c-footerNav">
+                <ul class="c-footerNav__list" data-item="1">
+                    <li class="c-footerNav__list__item">
+                        <a class="c-footerNav__list__item__link" href="">会社を知る</a>
+                        <ul class="c-footerNav__list__item__list">
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 理念</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 代表メッセージ</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> ユニークな制度</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 会社概要</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="c-footerNav__list__item">
+                        <a class="c-footerNav__list__item__link" href="">仕事を知る</a>
+                        <ul class="c-footerNav__list__item__list">
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 部署紹介</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> サービスの流れ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="c-footerNav__list__item">
+                        <a class="c-footerNav__list__item__link" href="">人を知る</a>
+                        <ul class="c-footerNav__list__item__list">
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 営業部　能登 大貴</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 商品部　友澤 奎亮</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> システム課　妹尾 祐輔</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="c-footerNav__list" data-item="2">
+                    <li class="c-footerNav__list__item">
+                        <a class="c-footerNav__list__item__link" href="">数字で見る</a>
+                        <ul class="c-footerNav__list__item__list">
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> どんな会社？</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> どんな人たち？</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 滋賀で働く？</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="c-footerNav__list__item">
+                        <a class="c-footerNav__list__item__link" href="">採用情報</a>
+                        <ul class="c-footerNav__list__item__list">
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 新卒採用</a>
+                            </li>
+                            <li class="c-footerNav__list__item__list__item">
+                                <a class="c-footerNav__list__item__list__item__link" href="">> 中途採用</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="c-footerNav__list__item">
+                        <a class="c-footerNav__list__item__link" href="">エントリー</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="c-footerContent">
+                <div class="c-footerContent__logo">
+                    <a class="c-footerContent__logo__link" href="">
+                        <figure class="c-footerContent__logo__link__img">
+                            <img src="/recruit/common/image/img_mainLogo.svg" alt="">
+                        </figure>
+                    </a>
+                </div>
+                <div class="c-footerContent__copyright">
+                    <p class="c-footerContent__copyright__text">Copyright&copy; KURAS-UP. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="/recruit/common/js/common.js"></script>
+</body>
+</html>
