@@ -589,6 +589,6 @@ add css here
         position: absolute;
         left: 0px;
         white-space: nowrap;
-        bottom: 0px;
+        bottom: -5px;
     }
 }
