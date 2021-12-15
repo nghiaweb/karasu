@@ -942,17 +942,13 @@ add css here
     }
 
     #company .company-main::before {
-        background: url(../../images/company/bg.png) no-repeat;
+        background: url(../../images/company/bg.png) no-repeat center;
         background-size: contain;
         position: absolute;
         top: 5px;
-        left: 114px;
+        left: -2%;
         width: 100%;
-        bottom: 320px;
+        bottom: 22.3vw;
         content: "";
-    }
-
-    #company #spirit .spirit-list .spirit-list-item h4 {
-        line-height: 1.8;
     }
 }
