@@ -554,14 +554,15 @@ add css here
 
     #works .works-main::before {
         background: url(../../images/works/bg.png) no-repeat;
-        background-size: cover;
+        background-size: contain;
         position: relative;
         position: absolute;
         top: -20px;
         left: -2%;
-        width: 100%;
+        width: 200%;
         bottom: 3vw;
-        background-position: center;
+        /* bottom: 17.7vw; */
+        background-position: left center;
         content: "";
     }
     #works #service .service-item {
@@ -595,10 +596,7 @@ add css here
 
 @media (min-width: 1300px) {
     #works .works-main::before {
-        background-size: contain;
         bottom: 17.7vw;
-        background-position: initial;
-        /* left: 89px; */
         left: 6%;
     }
 }
