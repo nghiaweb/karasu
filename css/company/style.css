@@ -1,807 +1,934 @@
 #company {
- font-family: 'Noto Sans JP', sans-serif;
- font-size: calc(100vw / 1440 * 15);
- color: #080808;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: calc(100vw / 1440 * 15);
+    color: #080808;
 }
 
-#company main{
- margin-top: calc(100vw / 1440 * 84);
+#company main {
+    margin-top: calc(100vw / 1440 * 84);
 }
 
 #company .company-main {
- position: relative;
+    position: relative;
 }
 
 #company .company-main::after {
- content: "";
- width: 100%;
- height: 100%;
- display: block;
- position: absolute;
- top: 0;
- left: 0;
- background-color: rgba(249,251,252,0.75);
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(249, 251, 252, 0.75);
 }
 
 #company .inner {
- max-width: 1060px;
- padding: 0 30px;
- margin: 0 auto;
+    max-width: 1060px;
+    padding: 0 30px;
+    margin: 0 auto;
 }
 
 @media (max-width: 767px) {
- #company {
-  font-size: calc(100vw / 375 * 13);
- }
- #company main{
-  margin-top: 122px;
- }
- #company .inner {
-  max-width: 100%;
- }
+    #company {
+        font-size: calc(100vw / 375 * 13);
+    }
+
+    #company main {
+        margin-top: 122px;
+    }
+
+    #company .inner {
+        max-width: 100%;
+    }
+
+
+
 }
+
 
 /* kasou */
 
 #company .kasou {
- background: url(../../images/company/img_mv_company.jpg) no-repeat center;
- background-size: cover;
- padding: calc(100vw / 1440 * 106) 0;
+    background: url(../../images/company/img_mv_company.jpg) no-repeat center;
+    background-size: cover;
+    padding: calc(100vw / 1440 * 106) 0;
 }
 
 #company .kasou-title {
- color: #006B9B;
- font-size: calc(100vw / 1440 * 70);
- font-style: italic;
- font-family: 'Lato', sans-serif;
- font-weight: 700;
- letter-spacing: 0.2em;
- margin-bottom: calc(100vw / 1440 * 20);
- overflow: hidden;
+    color: #006B9B;
+    font-size: calc(100vw / 1440 * 70);
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    margin-bottom: calc(100vw / 1440 * 20);
+    overflow: hidden;
 }
 
 #company .kasou-btn {
- font-size: calc(100vw / 1440 * 18);
- letter-spacing: 0.15em;
- font-weight: 500;
- color: #006B9B;
+    font-size: calc(100vw / 1440 * 18);
+    letter-spacing: 0.15em;
+    font-weight: 500;
+    color: #006B9B;
 }
 
 #company .kasou-txt {
- padding: 0 30px;
+    padding: 0 30px;
 }
 
 @media (max-width: 767px) {
- #company .kasou-title {
-  font-size: calc(100vw / 375 * 40);
- }
- #company .kasou-btn {
-  font-size: calc(100vw / 375 * 14);
- }
+    #company .kasou-title {
+        font-size: calc(100vw / 375 * 40);
+    }
+
+    #company .kasou-btn {
+        font-size: calc(100vw / 375 * 14);
+    }
 }
 
 /* philosophy */
 
 #company .philosophy {
- padding: calc(100vw / 1440 * 178) 0 0 0;
- position: relative;
- z-index: 5;
+    padding: calc(100vw / 1440 * 178) 0 0 0;
+    position: relative;
+    z-index: 5;
 }
 
 #company .philosophy .philosophy-title {
- font-size: calc(100vw / 1440 * 60);
- font-weight: bold;
- font-style: italic;
- font-family: 'Lato', sans-serif;
- letter-spacing: 0.2em;
- color: #006B9B;
+    font-size: calc(100vw / 1440 * 60);
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.2em;
+    color: #006B9B;
 }
 
 #company .philosophy .philosophy-txt {
- display: flex;
- align-items: flex-end;
+    display: flex;
+    align-items: flex-end;
 }
 
 #company .philosophy .philosophy-txt .philosophy-btn {
- font-size: calc(100vw / 1440 * 18);
- font-weight: 500;
- margin-bottom: calc(100vw / 1440 * 10);
- color: #006B9B;
+    font-size: calc(100vw / 1440 * 18);
+    font-weight: 500;
+    margin-bottom: calc(100vw / 1440 * 10);
+    color: #006B9B;
 }
 
 @media (max-width: 767px) {
- #company .philosophy .philosophy-title {
-  font-size: calc(100vw / 375 * 40);
- }
- #company .philosophy .philosophy-txt .philosophy-btn {
-  font-size: calc(100vw / 375 * 14);
- }
- #company .philosophy .philosophy-txt {
-  display: block;
- }
- #company .philosophy-text {
-  margin-bottom: calc(100vw / 375 * 40);
- }
+    #company .philosophy .philosophy-title {
+        font-size: calc(100vw / 375 * 40);
+    }
+
+    #company .philosophy .philosophy-txt .philosophy-btn {
+        font-size: calc(100vw / 375 * 14);
+    }
+
+    #company .philosophy .philosophy-txt {
+        display: block;
+    }
+
+    #company .philosophy-text {
+        margin-bottom: calc(100vw / 375 * 40);
+    }
 }
 
 /* mission */
 
 #company #mission {
- background: url(../../images/company/bg_mission.png) no-repeat center;
- background-size: cover;
- background-position: bottom;
- padding: calc(100vw / 1440 * 88) 0 calc(100vw / 1440 * 150) 0;
+    background: url(../../images/company/bg_mission.png) no-repeat center;
+    background-size: cover;
+
+    background-position: bottom;
+    padding: calc(100vw / 1440 * 88) 0 calc(100vw / 1440 * 150) 0;
 }
 
 #company #mission ul {
- display: flex;
- align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 #company #mission ul .mission-left {
- max-width: 44.5%;
- width: 100%;
- margin-right: 11.5%;
+    /* max-width: 44.5%; */
+    /* margin-right: 11.5%; */
+    max-width: 49.5%;
+    width: 100%;
+    margin-right: 10.5%;
 }
 
 #company #mission ul .mission-right {
- max-width: 396px;
- width: 100%;
+    max-width: 396px;
+    width: 100%;
 }
 
 #company .philosophy-title-en {
- font-size: calc(100vw / 1440 * 40);
- font-weight: bold;
- font-style: italic;
- font-family: 'Lato', sans-serif;
- letter-spacing: 0.2em;
- color: #006B9B;
+    font-size: calc(100vw / 1440 * 40);
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.2em;
+    color: #006B9B;
 }
 
 #company .philosophy-btn {
- font-size: calc(100vw / 1440 * 18);
- font-weight: 500;
- margin-bottom: calc(100vw / 1440 * 26);
- color: #006B9B;
+    font-size: calc(100vw / 1440 * 18);
+    font-weight: 500;
+    margin-bottom: calc(100vw / 1440 * 26);
+    color: #006B9B;
 }
 
 #company .philosophy-subtitle {
- margin-bottom: calc(100vw / 1440 * 26);
+    margin-bottom: calc(100vw / 1440 * 26);
 }
 
-#company .philosophy-subtitle span{
- line-height: 2;
- font-size: calc(100vw / 1440 * 30);
- font-weight: 500;
- color: rgba(255,255,255,0.9);
- letter-spacing: 0.15em;
- background-color: #006B9B;
- padding: 0px calc(100vw / 1440 * 15);
- display: inline-block;
+#company .philosophy-subtitle span {
+    line-height: 2;
+    font-size: calc(100vw / 1440 * 30);
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 0.15em;
+    background-color: #006B9B;
+    padding: 0px calc(100vw / 1440 * 15);
+    display: inline-block;
 }
 
 #company .philosophy-text {
- line-height: 2.1;
- letter-spacing: 0.1em;
- color: #080808;
+    line-height: 2.1;
+    letter-spacing: 0.1em;
+    color: #080808;
 }
 
 @media (max-width: 767px) {
- #company #mission ul {
-  display: block;
- }
- #company #mission ul .mission-left {
-  max-width: 100%;
-  margin: 0;
- }
- #company #mission ul .mission-right {
-  max-width: 90%;
-  margin: 0 auto;
- }
- #company .philosophy-title-en {
-  display: inline-block;
-  font-size: calc(100vw / 375 * 30);
-  margin-bottom: calc(100vw / 375 * 15);
- }
- #company .philosophy-btn {
-  display: inline-block;
-  font-size: calc(100vw / 375 * 14);
-  margin-bottom: calc(100vw / 375 * 18) !important;
- }
- #company .philosophy-subtitle {
-  transform: translateX(-30px);
- }
- #company .philosophy-subtitle span{
-  padding-left: calc(100vw / 375 * 30);
-  font-size: calc(100vw / 375 * 17);
-  display: inline-block;
- }
+    #company #mission ul {
+        display: block;
+    }
+
+    #company #mission ul .mission-left {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    #company #mission ul .mission-right {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    #company .philosophy-title-en {
+        display: inline-block;
+        font-size: calc(100vw / 375 * 30);
+        margin-bottom: calc(100vw / 375 * 15);
+    }
+
+    #company .philosophy-btn {
+        display: inline-block;
+        font-size: calc(100vw / 375 * 14);
+        margin-bottom: calc(100vw / 375 * 18) !important;
+    }
+
+    #company .philosophy-subtitle {
+        transform: translateX(-30px);
+    }
+
+    #company .philosophy-subtitle span {
+        padding-left: calc(100vw / 375 * 30);
+        font-size: calc(100vw / 375 * 17);
+        display: inline-block;
+    }
 }
 
 /* vision */
 
 #company #vision {
- position: relative;
- max-width: 1440px;
- margin: 0 auto;
- width: 100%;
- padding-bottom: calc(100vw / 1440 * 150);
+    position: relative;
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: calc(100vw / 1440 * 150);
 }
 
-#company #vision .philosophy-subtitle span{
- font-size: calc(100vw / 1440 * 20);
+#company #vision .inner {
+    width: 100%;
+    max-width: 84.72vw;
+    margin: 0;
+    padding: 0;
+
 }
 
-#company #vision .vision-right{
- width: 50%;
- margin-left: auto;
+#company #vision .philosophy-subtitle span {
+    font-size: calc(100vw / 1440 * 20);
+}
+
+#company #vision ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#company #vision .vision-right {
+    width: 100%;
+    padding-left: 65px;
+    max-width: calc(100% - 53.44%);
 }
 
 #company #vision .vision-left {
- position: absolute;
- left: 0;
- top: 0;
- max-width: calc(100vw / 1440 * 652);
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    width: 100%;
+    max-width: 53.44%;
 }
 
 @media (max-width: 767px) {
- #company #vision {
-  padding-bottom: calc(100vw / 375 * 100);
- }
- #company #vision .vision-left {
-  position: inherit;
-  top: inherit;
-  transform: none;
-  left: inherit;
-  max-width: 100%;
- }
- #company #vision .vision-right{
-  width: 100%;
- }
- #company #vision .philosophy-subtitle span {
-  font-size: calc(100vw / 375 * 17);
- }
+    #company #vision {
+        padding-bottom: calc(100vw / 375 * 100);
+    }
+
+    #company #vision .vision-left {
+        position: inherit;
+        top: inherit;
+        transform: none;
+        left: inherit;
+        max-width: 100%;
+    }
+
+    #company #vision .vision-right {
+        width: 100%;
+    }
+
+    #company #vision .philosophy-subtitle span {
+        font-size: calc(100vw / 375 * 17);
+    }
 }
 
 /* value */
 
 #company #value .philosophy-txt {
- display: flex;
- align-items: flex-end;
- margin-bottom: calc(100vw / 1440 * 30);
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: calc(100vw / 1440 * 30);
 }
 
 #company #value .philosophy-txt .philosophy-btn {
- margin-bottom: 0;
- margin-left: calc(100vw / 1440 * 16);
+    margin-bottom: 0;
+    margin-left: calc(100vw / 1440 * 16);
 }
 
 #company #value .philosophy-subtitle {
- padding: 0;
+    padding: 0;
 }
 
 #company #value .philosophy-subtitle span {
- font-size: calc(100vw / 1440 * 16);
- line-height: 1.25;
- padding: calc(100vw / 1440 * 7) calc(100vw / 1440 * 15);
- display: inline-block;
+    font-size: calc(100vw / 1440 * 16);
+    line-height: 1.25;
+    padding: calc(100vw / 1440 * 7) calc(100vw / 1440 * 15);
+    display: inline-block;
 }
 
 #company #value .value-table {
- margin-bottom: calc(100vw / 1440 * 50);
- width: 100%;
+    margin-bottom: calc(100vw / 1440 * 50);
+    width: 100%;
 }
 
-#company #value .value-table th{
- padding: calc(100vw / 1440 * 13) calc(100vw / 1440 * 20);
- border-bottom: 1px solid #006B9B;
- width: 20%;
+#company #value .value-table th {
+    padding: calc(100vw / 1440 * 13) calc(100vw / 1440 * 20);
+    border-bottom: 1px solid #006B9B;
+    width: 20%;
 }
 
-#company #value .value-table td{
- width: 72%;
- padding: calc(100vw / 1440 * 13) calc(100vw / 1440 * 30);
- border-bottom: 1px solid rgba(0,107,155,0.3);
+#company #value .value-table td {
+    width: 72%;
+    padding: calc(100vw / 1440 * 13) calc(100vw / 1440 * 30);
+    border-bottom: 1px solid rgba(0, 107, 155, 0.3);
 }
 
 @media (max-width: 767px) {
- #company #value .philosophy-txt {
-  margin-bottom: calc(100vw / 375 * 15);
- }
- #company #value .philosophy-subtitle {
-  padding-left: calc(100vw / 375 * 15);
-  transform: none;
-  margin-bottom: calc(100vw / 375 * 20);
- }
- #company #value .value-table,
- #company #value .value-table tbody,
- #company #value .value-table tr,
- #company #value .value-table td {
-  display: block;
- }
- #company #value .value-table th{
-  padding-left: calc(100vw / 375 * 30);
-  transform: translateX(-30px);
-  width: auto;
-  display: inline-block
- }
- #company #value .value-table td {
-  border-bottom: none;
-  margin-bottom: calc(100vw / 375 * 40);
- }
- #company #value .philosophy-subtitle span {
-  font-size: calc(100vw / 375 * 13);
-  padding: calc(100vw / 375 * 7) calc(100vw / 375 * 15);
- }
+    #company #value .philosophy-txt {
+        margin-bottom: calc(100vw / 375 * 15);
+    }
+
+    #company #value .philosophy-subtitle {
+        padding-left: calc(100vw / 375 * 15);
+        transform: none;
+        margin-bottom: calc(100vw / 375 * 20);
+    }
+
+    #company #value .value-table,
+    #company #value .value-table tbody,
+    #company #value .value-table tr,
+    #company #value .value-table td {
+        display: block;
+    }
+
+    #company #value .value-table th {
+        padding-left: calc(100vw / 375 * 30);
+        transform: translateX(-30px);
+        width: auto;
+        display: inline-block
+    }
+
+    #company #value .value-table td {
+        border-bottom: none;
+        margin-bottom: calc(100vw / 375 * 40);
+    }
+
+    #company #value .philosophy-subtitle span {
+        font-size: calc(100vw / 375 * 13);
+        padding: calc(100vw / 375 * 7) calc(100vw / 375 * 15);
+    }
 }
 
 /* spirit */
 
 #company #spirit {
- padding: calc(100vw / 1440 * 96) 0 0 0;
+    padding: calc(100vw / 1440 * 96) 0 0 0;
 }
 
 #company #spirit .philosophy-txt {
- margin-bottom: calc(100vw / 1440 * 40);
+    margin-bottom: calc(100vw / 1440 * 40);
 }
 
 #company #spirit .spirit-list {
- display: flex;
- flex-wrap: wrap;
- justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #company #spirit .spirit-list .spirit-list-item {
- width: 33%;
- margin-bottom: calc(100vw / 1440 * 22);
+    width: 30%;
+    margin-bottom: calc(100vw / 1440 * 22);
 }
 
-#company #spirit .spirit-list .spirit-list-item h4{
- line-height: 2.13;
- color: rgba(225, 225, 225,0.9);
- background-color: #006B9B;
- padding: calc(100vw / 1440 * 5) calc(100vw / 1440 * 12);
- display: inline-block;
- font-weight: 500;
+#company #spirit .spirit-list .spirit-list-item h4 {
+    line-height: 2.13;
+    /* color: rgba(225, 225, 225, 0.9); */
+    color: #FFF;
+    opacity: 0.9;
+    background-color: #006B9B;
+    padding: calc(100vw / 1440 * 5) calc(100vw / 1440 * 12);
+    display: inline-block;
+    font-weight: 500;
 }
 
-#company #spirit .spirit-list .spirit-list-item p{
- line-height: 2;
+#company #spirit .spirit-list .spirit-list-item p {
+    line-height: 2;
 }
 
-#company #spirit .spirit-list .spirit-list-item h4 img.sp{
- display: none;
+#company #spirit .spirit-list .spirit-list-item h4 img.sp {
+    display: none;
 }
 
 @media (max-width: 767px) {
- #company #spirit .spirit-list .spirit-list-item {
-  width: 48%;
-  position: relative;
-  border: 1px solid #006B9B;
- }
- #company #spirit .spirit-list .spirit-list-item p {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: calc(100vw / 375 * 40);
-  left: 0;
-  text-align: center;
- }
- #company #spirit .spirit-list .spirit-list-item h4 {
-  width: 100%;
-  padding: calc(100vw / 375 * 10) 0 calc(100vw / 375 * 18) 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  height: calc(100vw / 375 * 120);
-  position: relative;
-  z-index: 10;
- }
- #company #spirit .spirit-list .spirit-list-item h4::after {
-  content: "";
-  width: calc(100vw / 375 * 15);
-  height: calc(100vw / 375 * 15);
-  background: url(../../images/company/icon_triangle.svg) no-repeat center;
-  position: absolute;
-  bottom: calc(100vw / 375 * 7);
-  right: calc(100vw / 375 * 7);
- }
- #company #spirit .spirit-list .spirit-list-item.active h4{
-  color: #006B9B;
-  background-color: rgba(255,255,255,0.9);
- }
- #company #spirit .spirit-list .spirit-list-item.active p{
-  z-index: 10;
- }
- #company #spirit .spirit-list .spirit-list-item h4 img.sp{
-  width: auto;
-  display: block;
- }
+    #company #spirit .spirit-list .spirit-list-item {
+        width: 48%;
+        position: relative;
+        border: 1px solid #006B9B;
+    }
+
+    #company #spirit .spirit-list .spirit-list-item p {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: calc(100vw / 375 * 40);
+        left: 0;
+        text-align: center;
+    }
+
+    #company #spirit .spirit-list .spirit-list-item h4 {
+        width: 100%;
+        padding: calc(100vw / 375 * 10) 0 calc(100vw / 375 * 18) 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        height: calc(100vw / 375 * 120);
+        position: relative;
+        z-index: 10;
+    }
+
+    #company #spirit .spirit-list .spirit-list-item h4::after {
+        content: "";
+        width: calc(100vw / 375 * 15);
+        height: calc(100vw / 375 * 15);
+        background: url(../../images/company/icon_triangle.svg) no-repeat center;
+        position: absolute;
+        bottom: calc(100vw / 375 * 7);
+        right: calc(100vw / 375 * 7);
+    }
+
+    #company #spirit .spirit-list .spirit-list-item.active h4 {
+        color: #006B9B;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    #company #spirit .spirit-list .spirit-list-item.active p {
+        z-index: 10;
+    }
+
+    #company #spirit .spirit-list .spirit-list-item h4 img.sp {
+        width: auto;
+        display: block;
+    }
 }
 
 /* slogan */
 
 #company #slogan {
- padding: calc(100vw / 1440 * 146) 0;
- background: url(../../images/company/bg_slogan.png) no-repeat center;
- background-size: cover;
- margin: calc(100vw / 1440 * 150) 0 calc(100vw / 1440 * 200) 0;
- text-align: center;
- position: relative;
- z-index: 5;
+    padding: calc(100vw / 1440 * 146) 0;
+    background: url(../../images/company/bg_slogan.png) no-repeat center;
+    background-size: cover;
+    margin: calc(100vw / 1440 * 150) 0 calc(100vw / 1440 * 200) 0;
+    text-align: center;
+    position: relative;
+    z-index: 5;
 }
 
 #company #slogan .philosophy-txt {
- display: flex;
- align-items: flex-end;
- margin-bottom: calc(100vw / 1440 * 14);
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: calc(100vw / 1440 * 14);
 }
 
 #company #slogan .philosophy-txt .philosophy-btn {
- margin-bottom: calc(100vw / 1440 * 5);
- margin-left: calc(100vw / 1440 * 11);
+    margin-bottom: calc(100vw / 1440 * 5);
+    margin-left: calc(100vw / 1440 * 11);
 }
 
 #company #slogan .philosophy-subtitle {
- margin-bottom: 0;
- transform: none;
+    margin-bottom: 0;
+    transform: none;
 }
 
 #company #slogan .inner {
- display: inline-block;
+    display: inline-block;
 }
 
 @media (max-width: 767px) {
- #company #slogan {
-  margin: calc(100vw / 375 * 100) 0;
-  padding: calc(100vw / 375 * 36) 0 calc(100vw / 375 * 48) 0;
- }
+    #company #slogan {
+        margin: calc(100vw / 375 * 100) 0;
+        padding: calc(100vw / 375 * 36) 0 calc(100vw / 375 * 48) 0;
+    }
 }
 
 /* message */
 
 #company #message {
- background-color: rgba(0,107,155,0.08);
- padding: calc(100vw / 1440 * 80) 0 calc(100vw / 1440 * 100) 0;
- position: relative;
- max-width: 1440px;
- width: 100%;
- margin: 0 auto;
- z-index: 5;
+    background-color: rgba(0, 107, 155, 0.08);
+    /* padding: calc(100vw / 1440 * 80) 0 calc(100vw / 1440 * 100) 0; */
+    position: relative;
+    /* max-width: 1440px; */
+
+    width: 100%;
+
+    z-index: 5;
+}
+
+#company #message .inner {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+
+
 }
 
 #company #message .message-wrap {
- display: flex;
- align-items: center;
- justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    max-width: 84.72vw;
+
+
 }
 
 #company #message .message-right {
- width: 62%;
- margin-left: auto;
+    max-width: calc(100% - 43.6%);
+    padding-left: 65px;
 }
 
 #company #message .message-left-img {
- max-width: calc(100vw / 1440 * 531);
- width: 100%;
- position: absolute;
- left: 0;
- top: calc(100vw / 1440 * 20);
+    max-width: 43.6%;
+    width: 100%;
 }
 
 #company #message .philosophy-txt {
- display: flex;
- align-items: flex-end;
- margin-bottom: calc(100vw / 1440 * 55);
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: calc(100vw / 1440 * 55);
 }
 
 #company #message .philosophy-btn {
- margin-bottom: calc(100vw / 1440 * 8);
- margin-left: calc(100vw / 1440 * 12);
+    margin-bottom: calc(100vw / 1440 * 8);
+    margin-left: calc(100vw / 1440 * 12);
 }
 
 #company #message .philosophy-title-en {
- font-size: calc(100vw / 1440 * 60);
+    font-size: calc(100vw / 1440 * 60);
 }
 
 
-#company #message .message-name h4{
- color: #006B9B;
- font-size: calc(100vw / 1440 * 25);
- font-weight: bold;
- line-height: 1.28;
+#company #message .message-name h4 {
+    color: #006B9B;
+    font-size: calc(100vw / 1440 * 25);
+    font-weight: bold;
+    line-height: 1.28;
 }
 
-#company #message .message-name h4 span{
- font-size: calc(100vw / 1440 * 13);
- font-weight: 400;
- font-family: 'Lato', sans-serif;
- display: inline-block;
- margin-left: calc(100vw / 1440 * 15);
+#company #message .message-name h4 span {
+    font-size: calc(100vw / 1440 * 13);
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    margin-left: calc(100vw / 1440 * 15);
 }
 
 #company #message .message-name .message-position {
- color: #006B9B;
- font-weight: bold;
- line-height: 1.33;
+    color: #006B9B;
+    font-weight: bold;
+    line-height: 1.33;
 }
 
 #company #message .message-name {
- margin-bottom: calc(100vw / 1440 * 45);
+    margin-bottom: calc(100vw / 1440 * 45);
 }
 
 #company #message .philosophy-subtitle {
- margin-bottom: calc(100vw / 1440 * 20);
+    margin-bottom: calc(100vw / 1440 * 20);
 }
 
 #company #message .philosophy-subtitle span {
- font-size: calc(100vw / 1440 * 18);
- line-height: 1.11;
- display: inline-block;
- padding: calc(100vw / 1440 * 7) calc(100vw / 1440 * 15);
+    font-size: calc(100vw / 1440 * 18);
+    line-height: 1.11;
+    display: inline-block;
+    padding: calc(100vw / 1440 * 7) calc(100vw / 1440 * 15);
 }
 
 #company #message .message-text {
- line-height: 2.13;
- letter-spacing: 0.1em;
- margin-bottom: calc(100vw / 1440 * 90);
+    line-height: 2.13;
+    letter-spacing: 0.1em;
+    margin-bottom: calc(100vw / 1440 * 90);
 }
 
 #company #message .message-content {
- margin-top: calc(100vw / 1440 * 48);
+
+    max-width: 1220px;
+    margin: 0 auto;
+    margin-top: 65px;
+    padding: 0 20px;
+    padding-bottom: 100px;
 }
 
 #company #message .message-left {
- width: 62%;
+    width: 62%;
 }
 
 #company #message .message-left-text {
- line-height: 2.13;
- letter-spacing: 0.1em;
+    line-height: 2.13;
+    letter-spacing: 0.1em;
 }
 
 #company #message .message-name-img {
- display: none;
+    display: none;
 }
 
 @media (max-width: 767px) {
- #company #message {
-  margin-top: calc(100vw / 375 * 120);
-  padding: calc(100vw / 375 * 50) 0;
- }
- #company #message .message-name h4 {
-  font-size: calc(100vw / 375 * 23);
- }
- #company #message .message-name h4 span{
-  font-size: calc(100vw / 375 * 12);
- }
- #company #message .philosophy-txt {
-  display: block;
-  margin-bottom: 0;
- }
- #company #message .philosophy-title-en {
-  display: block;
-  font-size: calc(100vw / 375 * 40);
- }
- #company #message .philosophy-btn {
-  display: block;
- }
- #company #message .message-wrap {
-  display: block;
- }
- #company #message .message-right {
-  width: 100%;
- }
- #company #message .message-left-img {
-  display: none;
- }
- #company #message .message-name-img {
-  display: block;
-  width: 100%;
-  margin-bottom: calc(100vw / 375 * 30);
- }
- #company #message .message-left {
-  width: 100%;
- }
- #company #message .message-text {
-  margin-bottom: calc(100vw / 375 * 50);
- }
- #company #message .message-right-img {
-  display: none;
- }
- #company #message .philosophy-subtitle span {
-  font-size: calc(100vw / 375 * 13);
-  padding: calc(100vw / 375 * 7) calc(100vw / 375 * 15);
- }
+    #company #message {
+        margin-top: calc(100vw / 375 * 120);
+        padding: calc(100vw / 375 * 50) 0;
+    }
+
+    #company #message .message-name h4 {
+        font-size: calc(100vw / 375 * 23);
+    }
+
+    #company #message .message-name h4 span {
+        font-size: calc(100vw / 375 * 12);
+    }
+
+    #company #message .philosophy-txt {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    #company #message .philosophy-title-en {
+        display: block;
+        font-size: calc(100vw / 375 * 40);
+    }
+
+    #company #message .philosophy-btn {
+        display: block;
+    }
+
+    #company #message .message-wrap {
+        display: block;
+        max-width: 100%;
+    }
+
+    #company #message .message-right {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    #company #message .message-content {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    #company #message .message-left-img {
+        display: none;
+    }
+
+    #company #message .message-name-img {
+        display: block;
+        width: 100%;
+        margin-bottom: calc(100vw / 375 * 30);
+    }
+
+    #company #message .message-left {
+        width: 100%;
+    }
+
+    #company #message .message-text {
+        margin-bottom: calc(100vw / 375 * 50);
+    }
+
+    #company #message .message-right-img {
+        display: none;
+    }
+
+    #company #message .philosophy-subtitle span {
+        font-size: calc(100vw / 375 * 13);
+        padding: calc(100vw / 375 * 7) calc(100vw / 375 * 15);
+    }
 }
 
 /* unique */
 
 #company #unique {
- padding: calc(100vw / 1440 * 200) 0;
- position: relative;
- z-index: 5;
+    padding: calc(100vw / 1440 * 200) 0;
+    position: relative;
+    z-index: 5;
 }
 
-#company #unique .philosophy-txt{
- display: flex;
- align-items: flex-end;
+#company #unique .philosophy-txt {
+    display: flex;
+    align-items: flex-end;
 }
 
 #company #unique .philosophy-btn {
- margin-bottom: calc(100vw / 1440 * 8);
- margin-left: calc(100vw / 1440 * 12);
+    margin-bottom: calc(100vw / 1440 * 8);
+    margin-left: calc(100vw / 1440 * 12);
 }
 
 #company #unique .unique-list {
- display: flex;
- justify-content: space-between;
- margin-top: calc(100vw / 1440 * 33);
+    display: flex;
+    justify-content: space-between;
+    margin-top: calc(100vw / 1440 * 33);
 }
 
-#company #unique .unique-list li{
- width: 27.8%;
+#company #unique .unique-list li {
+    width: 27.8%;
 }
 
-#company #unique .unique-list li h4{
- line-height: 1.77;
- font-size: calc(100vw / 1440 * 18);
- letter-spacing: 0.15em;
- color: rgba(225, 225, 225, 0.9);
- background-color: #006B9B;
- padding: calc(100vw / 1440 * 5) calc(100vw / 1440 * 12);
- display: inline-block;
- margin: calc(100vw / 1440 * 20) 0 calc(100vw / 1440 * 10) 0;
+#company #unique .unique-list li h4 {
+    line-height: 1.77;
+
+
+    font-size: 1.125rem;
+    letter-spacing: 0.15em;
+
+    color: #FFF;
+    opacity: 0.9;
+    background-color: #006B9B;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px auto;
 }
 
 #company #unique .unique-txt {
- line-height: 2.13;
+    line-height: 2.13;
 }
 
 @media (max-width: 767px) {
- #company #unique {
-  padding: calc(100vw / 375 * 120) 0;
- }
- #company #unique .unique-list {
-  display: block;
- }
- #company #unique .unique-list li{
-  width: 100%;
-  margin-bottom: calc(100vw / 375 * 50);
- }
- #company #unique .unique-list li:last-child{
-  margin-bottom: 0;
- }
- #company #unique .unique-list li h4 {
-  font-size: calc(100vw / 375 * 14);
-  padding: calc(100vw / 375 * 5) calc(100vw / 375 * 12);
-  margin: calc(100vw / 375 * 20) 0 calc(100vw / 375 * 10) 0;
- }
- #company #unique .unique_photo img{
-  width: 100%;
- }
- #company #unique .philosophy-txt {
-  display: block;
- }
- #company #unique .philosophy-title-en {
-  display: block;
- }
- #company #unique .philosophy-btn {
-  display: block;
- }
+    #company #vision .inner {
+        max-width: 100vw;
+        padding: 0 20px;
+
+    }
+
+    #company #vision ul {
+        display: block;
+        flex-direction: unset;
+    }
+
+    #company #vision .vision-left {
+
+        max-width: 100%;
+    }
+
+    #company #vision .vision-right {
+        max-width: 100%;
+        padding-left: 0;
+    }
+
+    #company #unique {
+        padding: calc(100vw / 375 * 120) 0;
+    }
+
+    #company #unique .unique-list {
+        display: block;
+    }
+
+    #company #unique .unique-list li {
+        width: 100%;
+        margin-bottom: calc(100vw / 375 * 50);
+    }
+
+    #company #unique .unique-list li:last-child {
+        margin-bottom: 0;
+    }
+
+    #company #unique .unique-list li h4 {
+        font-size: calc(100vw / 375 * 14);
+        padding: calc(100vw / 375 * 5) calc(100vw / 375 * 12);
+        margin: calc(100vw / 375 * 20) 0 calc(100vw / 375 * 10) 0;
+    }
+
+    #company #unique .unique_photo img {
+        width: 100%;
+    }
+
+    #company #unique .philosophy-txt {
+        display: block;
+    }
+
+    #company #unique .philosophy-title-en {
+        display: block;
+    }
+
+    #company #unique .philosophy-btn {
+        display: block;
+    }
 }
 
 /* profile */
 
 #company #profile {
- background-color: rgba(0,107,155,0.08);
- padding: calc(100vw / 1440 * 80) 0 calc(100vw / 1440 * 100) 0;
- color: #006B9B;
- position: relative;
- z-index: 5;
+    background-color: rgba(0, 107, 155, 0.08);
+    padding: calc(100vw / 1440 * 80) 0 calc(100vw / 1440 * 100) 0;
+    color: #006B9B;
+    position: relative;
+    z-index: 5;
 }
 
 #company #profile .philosophy-txt {
- display: flex;
- align-items: flex-end;
- margin-bottom: calc(100vw / 1440 * 40);
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: calc(100vw / 1440 * 40);
 }
 
 #company #profile .philosophy-title-en {
- font-size: calc(100vw / 1440 * 50);
+    font-size: calc(100vw / 1440 * 50);
 }
 
-#company #profile .philosophy-btn{
- margin-bottom: calc(100vw / 1440 * 8);
+#company #profile .philosophy-btn {
+    margin-bottom: calc(100vw / 1440 * 8);
 }
 
 #company #profile .profile-list {
- width: 100%;
- margin-bottom: calc(100vw / 1440 * 30);
+    width: 100%;
+    margin-bottom: calc(100vw / 1440 * 30);
 }
 
 #company #profile .profile-list tr {
- display: flex;
+    display: flex;
 }
 
 #company #profile .profile-list th {
- width: 15%;
- padding: calc(100vw / 1440 * 15) calc(100vw / 1440 * 24);
- border-bottom: 1px solid #006B9B;
- font-weight: 500;
+    width: 15%;
+    padding: 15px;
+    border-bottom: 1px solid #006B9B;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 #company #profile .profile-list td {
- width: 75%;
- padding: calc(100vw / 1440 * 15) calc(100vw / 1440 * 24);
- border-bottom: 1px solid rgba(0,107,155,0.3);
+    width: 75%;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 107, 155, 0.3);
+    font-size: 15px;
 }
 
-#company #profile .profile-list a{
- display: flex;
- align-items: center;
- color: #006B9B;
+#company #profile .profile-list a {
+    display: flex;
+    align-items: center;
+    color: #006B9B;
 }
 
-#company #profile .profile-list a:hover{
- opacity: 0.6;
+#company #profile .profile-list a:hover {
+    opacity: 0.6;
 }
 
-#company #profile .profile-list a img{
- margin-left: calc(100vw / 1440 * 13);
- width: auto;
+#company #profile .profile-list a img {
+    margin-left: calc(100vw / 1440 * 13);
+    width: auto;
 }
 
 #company #profile .profile-map {
- display: flex;
- justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
-#company #profile .profile-map h4{
- font-weight: 500;
- margin-bottom: calc(100vw / 1440 * 10);
+#company #profile .profile-map h4 {
+    font-weight: 500;
+    margin-bottom: calc(100vw / 1440 * 10);
 }
 
 #company #profile .profile-map .profile-add {
- font-size: calc(100vw / 1440 * 13);
- line-height: 1.53;
- margin-bottom: calc(100vw / 1440 * 20);
+    font-size: calc(100vw / 1440 * 13);
+    line-height: 1.53;
+    margin-bottom: calc(100vw / 1440 * 20);
 }
 
 #company #profile iframe {
- width: 100%;
+    width: 100%;
 }
 
 @media (max-width: 767px) {
- #company #profile .philosophy-txt {
-  display: block;
- }
- #company #profile .profile-map {
-  display: block;
- }
- #company #profile .profile-map li{
-  margin-bottom: calc(100vw / 375 * 30);
- }
- #company #profile .profile-map li:last-child{
-  margin-bottom: 0;
- }
- #company #profile .philosophy-title-en {
-  display: block;
-  font-size: calc(100vw / 375 * 40);
- }
- #company #profile .philosophy-btn {
-  display: block;
- }
- #company #profile .profile-map .profile-add {
-  font-size: calc(100vw / 375 * 13);
- }
+    #company #profile .philosophy-txt {
+        display: block;
+    }
+
+    #company #profile .profile-map {
+        display: block;
+    }
+
+    #company #profile .profile-map li {
+        margin-bottom: calc(100vw / 375 * 30);
+    }
+
+    #company #profile .profile-map li:last-child {
+        margin-bottom: 0;
+    }
+
+    #company #profile .philosophy-title-en {
+        display: block;
+        font-size: calc(100vw / 375 * 40);
+    }
+
+    #company #profile .philosophy-btn {
+        display: block;
+    }
+
+    #company #profile .profile-map .profile-add {
+        font-size: calc(100vw / 375 * 13);
+    }
 }
 
 /* join */
 
 #company .l-section {
- position: relative;
- z-index: 10;
+    position: relative;
+    z-index: 10;
 }
 
 /*======================
@@ -813,6 +940,7 @@ add css here
         background-image: none;
         overflow: hidden;
     }
+
     #company .company-main::before {
         background: url(../../images/company/bg.png) no-repeat;
         background-size: contain;
@@ -823,6 +951,7 @@ add css here
         bottom: 320px;
         content: "";
     }
+
     #company #spirit .spirit-list .spirit-list-item h4 {
         line-height: 1.8;
     }

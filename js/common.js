@@ -148,3 +148,66 @@ $(".spirit-list-item").click(function(){
    $("html, body").animate({scrollTop:position}, 400, "swing");
    return false;
  });
+
+
+ const Wave = $(".ani-wave");
+
+const CreateAniWave = (e) => {
+	let _t = e.split('');
+    return _t.map((a,b) =>`<span style="transition-delay:${b*0.05}s">${a}</span>`).join('');
+}
+
+const Init = () => {
+	Wave.map((a,b) => {
+    	let _t = $(b).text().trim();
+        let ah=CreateAniWave(_t);
+        $(b).html(ah);
+    });
+  
+}
+
+Init();
+
+
+
+
+const ANI_ANIMATED = () => {
+    const CheckPos = (a, b, c) => {
+        let _top = a.offset().top;
+        // return true if it inside screen
+        return  _top >= b && _top <= c;
+    };
+
+    let _delay = 0,
+        _pageY = window.pageYOffset,
+        _pageScreen = _pageY + 400;
+
+    Wave.map((ind, val) => {
+        let _ = $(val);
+        if (!_.hasClass("ani-pass")) {
+            let _check = CheckPos(_, _pageY, _pageScreen);
+
+            if (_check) {
+                // add class to check it is ready to show
+                _.addClass("ani-pass"); 
+                 _.addClass("active");
+                // set time out to add class animated
+               
+            } else if (_.offset().top < _pageY) {
+                // add class if it is on top screen position
+                _.addClass("ani-pass active");
+                //_.addClass("");
+            }
+        }
+    });
+};
+let _scroll = true;
+
+ $(window).on("load scroll", function () {
+    
+        ANI_ANIMATED();
+     
+  
+});
+
+
