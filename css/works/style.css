@@ -597,6 +597,7 @@ add css here
 @media (min-width: 1300px) {
     #works .works-main::before {
         bottom: 17.7vw;
-        left: 6%;
+        transform: translateX(-22%);
+        left: 50%;
     }
 }
