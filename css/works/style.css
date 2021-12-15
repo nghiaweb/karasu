@@ -558,11 +558,10 @@ add css here
         position: relative;
         position: absolute;
         top: -20px;
-        left: -2%;
+        left: -45.2%;
         width: 200%;
-        bottom: 3vw;
-        /* bottom: 17.7vw; */
-        background-position: left center;
+        bottom: 17.7vw;
+        background-position: center;
         content: "";
     }
     #works #service .service-item {
@@ -591,13 +590,5 @@ add css here
         left: 0px;
         white-space: nowrap;
         bottom: 0px;
-    }
-}
-
-@media (min-width: 1300px) {
-    #works .works-main::before {
-        bottom: 17.7vw;
-        transform: translateX(-22%);
-        left: 50%;
     }
 }
