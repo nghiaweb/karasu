@@ -573,7 +573,7 @@ add css here
         margin-top: calc(100vw / 1440 * 177) !important;
     }
     #works .inner {
-        max-width: 73.6vw;
+        max-width: max(1060px, 65vw)
     }
     #works #teams .teams-wrap h3 {
         padding: calc(100vw / 1440 * 21) 0 calc(100vw / 1440 * 39) calc(100vw / 1440 * 1);
