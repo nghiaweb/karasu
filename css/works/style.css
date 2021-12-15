@@ -560,11 +560,9 @@ add css here
         top: -20px;
         left: 89px;
         width: 100%;
-        bottom: 285px;
+        /* bottom: 17.7vw; */
+        bottom: 260px;
         content: "";
-    }
-    #works #teams .team-btn-box {
-        margin-bottom: 237px;
     }
     #works #service .service-item {
         margin-bottom: calc(100vw / 1440 * 61);
@@ -578,10 +576,19 @@ add css here
     #works #teams .teams-wrap h3 {
         padding: calc(100vw / 1440 * 21) 0 calc(100vw / 1440 * 39) calc(100vw / 1440 * 1);
     }
-    #works #teams .teams-wrap .teams-text h4 {
-        margin-bottom: calc(100vw / 1440 * 11);
-    }
     #works #teams .teams-wrap .teams-text .teams-txt {
         margin-bottom: calc(100vw / 1440 * 80);
+    }
+    #works #teams .teams-wrap .teams-text h4 {
+        position: absolute;
+        left: 0px;
+        white-space: nowrap;
+        bottom: 1.5vw;
+    }
+    #works #teams .teams-wrap .teams-text .teams-list {
+        position: absolute;
+        left: 0px;
+        white-space: nowrap;
+        bottom: 0px;
     }
 }
