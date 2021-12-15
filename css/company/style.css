@@ -940,7 +940,6 @@ add css here
         background-image: none;
         overflow: hidden;
     }
-
     #company .company-main::before {
         background: url(../../images/company/bg.png) no-repeat center;
         background-size: contain;
@@ -950,5 +949,11 @@ add css here
         width: 100%;
         bottom: 22.3vw;
         content: "";
+    }
+    /* #company .philosophy .philosophy-txt .philosophy-btn {
+        margin-left: 14px;
+    } */
+    #company #spirit .spirit-list .spirit-list-item h4 {
+        line-height: 1.8;
     }
 }

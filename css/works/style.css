@@ -563,16 +563,25 @@ add css here
         bottom: 285px;
         content: "";
     }
-
     #works #teams .team-btn-box {
         margin-bottom: 237px;
     }
-
     #works #service .service-item {
         margin-bottom: calc(100vw / 1440 * 110);
     }
-
     .l-section:last-of-type {
         margin-top: calc(100vw / 1440 * 177) !important;
+    }
+    #works .inner {
+        max-width: 73.6vw;
+    }
+    #works #teams .teams-wrap h3 {
+        padding: calc(100vw / 1440 * 21) 0 calc(100vw / 1440 * 39) calc(100vw / 1440 * 1);
+    }
+    #works #teams .teams-wrap .teams-text h4 {
+        margin-bottom: calc(100vw / 1440 * 11);
+    }
+    #works #teams .teams-wrap .teams-text .teams-txt {
+        margin-bottom: calc(100vw / 1440 * 80);
     }
 }
