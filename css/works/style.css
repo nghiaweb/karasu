@@ -567,7 +567,7 @@ add css here
         margin-bottom: 237px;
     }
     #works #service .service-item {
-        margin-bottom: calc(100vw / 1440 * 110);
+        margin-bottom: calc(100vw / 1440 * 61);
     }
     .l-section:last-of-type {
         margin-top: calc(100vw / 1440 * 177) !important;
