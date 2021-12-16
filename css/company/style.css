@@ -137,11 +137,21 @@
 /* mission */
 
 #company #mission {
-    background: url(../../images/company/bg_mission.png) no-repeat center;
+    /* background: url(../../images/company/bg_mission.png) no-repeat center;
+    background-size: cover;
+  background-position: 0 140%;
+    background-position: bottom;
+    padding: calc(100vw / 1440 * 88) 0 calc(100vw / 1440 * 150) 0; */
+    background: url(../../images/company/bg_mission.png) no-repeat;
     background-size: cover;
 
-    background-position: bottom;
+    background-position: 0 -3vw;
     padding: calc(100vw / 1440 * 88) 0 calc(100vw / 1440 * 150) 0;
+    overflow: auto;
+}
+
+#company #mission .mt-mission {
+    margin-top: 100px;
 }
 
 #company #mission ul {
@@ -184,7 +194,8 @@
 
 #company .philosophy-subtitle span {
     line-height: 2;
-    font-size: calc(100vw / 1440 * 30);
+    /* font-size: calc(100vw / 1440 * 30); */
+    font-size: 30px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.9);
     letter-spacing: 0.15em;
@@ -199,7 +210,21 @@
     color: #080808;
 }
 
+@media (max-width: 1024px) {
+    #company .philosophy-subtitle span {
+        font-size: 2.8vw;
+    }
+}
+
 @media (max-width: 767px) {
+    #company #mission {
+        background-position: 0 -28vw;
+    }
+
+    #company #mission .mt-mission {
+        margin-top: 0;
+    }
+
     #company #mission ul {
         display: block;
     }
@@ -259,6 +284,10 @@
     font-size: calc(100vw / 1440 * 20);
 }
 
+#company #vision .philosophy-subtitle br {
+    display: none;
+}
+
 #company #vision ul {
     display: flex;
     flex-direction: row-reverse;
@@ -297,6 +326,10 @@
 
     #company #vision .philosophy-subtitle span {
         font-size: calc(100vw / 375 * 17);
+    }
+
+    #company #vision .philosophy-subtitle br {
+        display: block;
     }
 }
 
@@ -347,7 +380,9 @@
     }
 
     #company #value .philosophy-subtitle {
-        padding-left: calc(100vw / 375 * 15);
+        /* padding-left: calc(100vw / 375 * 15); */
+        padding-left: 0;
+        margin-left: -30px;
         transform: none;
         margin-bottom: calc(100vw / 375 * 20);
     }
@@ -398,6 +433,10 @@
     margin-bottom: calc(100vw / 1440 * 22);
 }
 
+#company #spirit .spirit-list .spirit-list-item br {
+    display: none;
+}
+
 #company #spirit .spirit-list .spirit-list-item h4 {
     line-height: 2.13;
     /* color: rgba(225, 225, 225, 0.9); */
@@ -424,6 +463,10 @@
         border: 1px solid #006B9B;
     }
 
+    #company #spirit .spirit-list .spirit-list-item br {
+        display: block;
+    }
+
     #company #spirit .spirit-list .spirit-list-item p {
         width: 100%;
         height: 100%;
@@ -431,6 +474,7 @@
         top: calc(100vw / 375 * 40);
         left: 0;
         text-align: center;
+        padding: 0 8px;
     }
 
     #company #spirit .spirit-list .spirit-list-item h4 {
@@ -466,6 +510,7 @@
     #company #spirit .spirit-list .spirit-list-item h4 img.sp {
         width: auto;
         display: block;
+        filter: brightness(0.9) sepia(0.1);
     }
 }
 
@@ -504,7 +549,9 @@
 @media (max-width: 767px) {
     #company #slogan {
         margin: calc(100vw / 375 * 100) 0;
-        padding: calc(100vw / 375 * 36) 0 calc(100vw / 375 * 48) 0;
+        /* padding: calc(100vw / 375 * 36) 0 calc(100vw / 375 * 48) 0; */
+        padding: 30px 0;
+        background-size: 100% 100%;
     }
 }
 
@@ -751,7 +798,7 @@
 @media (max-width: 767px) {
     #company #vision .inner {
         max-width: 100vw;
-        padding: 0 20px;
+
 
     }
 
@@ -767,7 +814,8 @@
 
     #company #vision .vision-right {
         max-width: 100%;
-        padding-left: 0;
+
+        padding: 0 20px;
     }
 
     #company #unique {
@@ -922,6 +970,10 @@
     #company #profile .profile-map .profile-add {
         font-size: calc(100vw / 375 * 13);
     }
+
+    #company #profile .profile-list th {
+        width: 145px;
+    }
 }
 
 /* join */
@@ -940,6 +992,7 @@ add css here
         background-image: none;
         overflow: hidden;
     }
+
     #company .company-main::before {
         background: url(../../images/company/bg.png) no-repeat center;
         background-size: contain;
@@ -950,6 +1003,7 @@ add css here
         bottom: 22.3vw;
         content: "";
     }
+
     /* #company .philosophy .philosophy-txt .philosophy-btn {
         margin-left: 14px;
     } */

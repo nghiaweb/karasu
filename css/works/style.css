@@ -283,7 +283,8 @@
     width: 100%;
     height: 100%;
     padding: calc(100vw / 1440 * 49) calc(100vw / 1440 * 38) calc(100vw / 1440 * 49) calc(100vw / 1440 * 52);
-    text-shadow: 0 0 5px rgba(0, 56, 25, 0.3);
+    /* text-shadow: 0 0 5px rgba(0, 56, 25, 0.3); */
+    text-shadow: 0 0 5px rgb(0 0 0 / 80%);
     position: relative;
     z-index: 10;
     letter-spacing: 0.15em;
@@ -325,6 +326,10 @@
 
     #works #teams .teams-wrap {
         display: block;
+    }
+
+    #works #teams .teams-wrap .teams-text .teams-list {
+        margin-bottom: calc(100vw / 375 * 40);
     }
 
     #works #teams .teams-wrap .teams-img {
@@ -480,6 +485,7 @@
         margin: 0;
         margin-bottom: calc(100vw / 375 * 80);
         padding: 0;
+        padding-top: 5px;
     }
 
     #works #service .service-item:last-child {
@@ -506,8 +512,8 @@
     }
 
     #works #service .service-icon {
-        top: -40%;
-        left: -48%;
+        top: -37%;
+        left: -43%;
     }
 
     #works #service .service-item h5 {
@@ -523,6 +529,7 @@
     #works #service .service-item h4 {
         font-size: calc(100vw / 375 * 17);
         margin-bottom: calc(100vw / 375 * 39);
+        padding-left: 15px;
     }
 }
 
@@ -564,18 +571,23 @@ add css here
         background-position: center;
         content: "";
     }
+
     #works #service .service-item {
         margin-bottom: calc(100vw / 1440 * 61);
     }
+
     .l-section:last-of-type {
         margin-top: calc(100vw / 1440 * 177) !important;
     }
+
     #works .inner {
         max-width: max(1060px, 65vw)
     }
+
     #works #teams .teams-wrap h3 {
         padding: calc(100vw / 1440 * 21) 0 calc(100vw / 1440 * 39) calc(100vw / 1440 * 1);
     }
+
     #works #teams .teams-wrap .teams-text .teams-txt {
         margin-bottom: calc(100vw / 1440 * 80);
     }
@@ -588,6 +600,7 @@ add css here
         white-space: nowrap;
         bottom: 1.5vw;
     }
+
     #works #teams .teams-wrap .teams-text .teams-list {
         position: absolute;
         left: 0px;
